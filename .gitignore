@@ -1,6 +1,6 @@
 .idea
-public
-node_modules
+/public
+/node_modules
 
 # Logs
 logs
