@@ -1,0 +1,16 @@
+div.search-result-block(data-bind="visible: name")
+    div.pull-left
+        div.result-number
+            span.label.label-primary(data-bind="text: number")
+    div.right-pane
+        a(data-bind="click: showDetails", href="javascript:void 0")
+            h4.result-title.text-primary(data-bind="text: name")
+        p.result-address(data-bind="text: address")
+        p.result-url
+            a(data-bind="attr: {'href': url}, text: url")
+        p.result-categories(data-bind="foreach: categories")
+            span.result-one-category(data-bind="text: name")
+        p.result-features(data-bind="foreach: features")
+            span.result-one-feature(data-bind="text: $data")
+            br
+        p.result-hours(data-bind="text: hours")

@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    div.container-fluid
+        div.row
+            div.col-md-4.col-md-offset-4
+                search-form(params="onSubmit: onClickGo, searchTerm: searchTerm")
+        div.row
+            div.col-md-12
+                search-results(params="data: resultsDisplay, needNext: needNext, showPreloader: showPreloader, showDetails: showDetails")
+    div(data-bind="if: modal")
+        div.modal-wrapper(data-bind="component: {name: modal, params: modalData}")
+
+block templates
+    script#search-form-tpl(type="text/html")
+        include components/search-form
+    script#search-results-tpl(type="text/html")
+        include components/search-results
+    script#search-result-block-tpl(type="text/html")
+        include components/search-result-block
+    script#search-result-details-tpl(type="text/html")
+        include components/search-result-details
+    script#img-gallery-tpl(type="text/html")
+        include components/img-gallery
+
+block scripts
+    script(src="js/app.js", defer)
+
+block styles
+    link(rel='stylesheet', href='/css/bootstrap.css')
+    link(rel='stylesheet', href='/css/bootstrap-theme.css')
+    link(rel='stylesheet', href='/css/app.css')

@@ -1,0 +1,6 @@
+ul.list-unstyled.list-inline(data-bind="foreach: data")
+    li.search-result-block-wrapper
+        search-result-block(params="data: $data, number: $index()+1, showDetails: $parent.showDetails")
+div.need-next-if-in-viewport
+    img.preloader.center-block(src="/images/preloader.gif", data-bind="visible: showPreloader")
+

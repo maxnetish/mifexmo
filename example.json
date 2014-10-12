@@ -1,0 +1,4278 @@
+{"type": "FeatureCollection", "properties": {
+    "Attribution": {
+        "Sources": {
+            "foursquare": {
+                "id": "foursquare",
+                "authors": [
+                    {
+                        "name": "Foursquare",
+                        "uri": "http:\/\/foursquare.com"
+                    }
+                ]
+            },
+            "mgts": {
+                "id": "mgts",
+                "authors": [
+                    {
+                        "name": "Проверено Службой 009 МГТС",
+                        "uri": "http:\/\/mgts.ru"
+                    }
+                ]
+            },
+            "twitter": {
+                "id": "twitter",
+                "authors": [
+                    {
+                        "name": "Twitter",
+                        "uri": "http:\/\/twitter.com"
+                    }
+                ]
+            },
+            "yandex": {
+                "id": "yandex",
+                "authors": [
+                    {
+                        "name": "Яндекс",
+                        "uri": "http:\/\/www.yandex.ru"
+                    }
+                ]
+            },
+            "facebook": {
+                "id": "facebook",
+                "authors": [
+                    {
+                        "name": "Facebook",
+                        "uri": "http:\/\/facebook.com"
+                    }
+                ]
+            },
+            "youtube": {
+                "id": "youtube",
+                "authors": [
+                    {
+                        "name": "YouTube",
+                        "uri": "http:\/\/youtube.com"
+                    }
+                ]
+            },
+            "vkontakte": {
+                "id": "vkontakte",
+                "authors": [
+                    {
+                        "name": "ВКонтакте",
+                        "uri": "http:\/\/vk.com"
+                    }
+                ]
+            }
+        }
+    },
+    "ResponseMetaData": {
+        "SearchRequest": {
+            "request": "автосервис",
+            "results": 10,
+            "skip": 0,
+            "boundedBy": [
+                [37.048426749999997, 55.436448290000001],
+                [38.175902260000001, 56.046901239999997]
+            ]
+        },
+        "SearchResponse": {
+            "found": 53691,
+            "Sort": {
+                "type": "rank"
+            },
+            "Point": {
+                "type": "Point",
+                "coordinates": [57.555042290000003, 58.574519850000001]
+            },
+            "boundedBy": [
+                [26.74466061, 42.704922259999996],
+                [88.365423969999995, 69.496805730000005]
+            ],
+            "SourceMetaDataList": {
+                "SourceMetaData": {
+                    "ResponseMetaData": {
+                        "BusinessSearchRequest": {
+                            "request": "автосервис",
+                            "results": 10
+                        },
+                        "BusinessSearchResponse": {
+                            "sort": "rank",
+                            "found": 52882,
+                            "Categories": [
+                                {
+                                    "class": "auto",
+                                    "name": "Автосервисы, автотехцентры",
+                                    "InternalCategoryInfo": {
+                                        "AppleData": {
+                                            "acid": "auto",
+                                            "level": "1"
+                                        }
+                                    }
+                                }
+                            ],
+                            "Filters": [
+                                {
+                                    "id": "open_now",
+                                    "type": "Boolean",
+                                    "name": "работает сейчас"
+                                },
+                                {
+                                    "id": "open_24h",
+                                    "type": "Boolean",
+                                    "name": "круглосуточно"
+                                },
+                                {
+                                    "id": "car_repairs",
+                                    "type": "EnumFeature",
+                                    "name": "виды работ",
+                                    "enum": [
+                                        {
+                                            "id": "car_a_c",
+                                            "name": "заправка автокондиционера"
+                                        },
+                                        {
+                                            "id": "car_aerography",
+                                            "name": "аэрография"
+                                        },
+                                        {
+                                            "id": "car_alarm",
+                                            "name": "сигнализация"
+                                        },
+                                        {
+                                            "id": "car_automatic_transmission",
+                                            "name": "ремонт АКПП"
+                                        },
+                                        {
+                                            "id": "car_brake_disc",
+                                            "name": "замена тормозных дисков"
+                                        },
+                                        {
+                                            "id": "car_electrician_repair",
+                                            "name": "ремонт автоэлектрики"
+                                        },
+                                        {
+                                            "id": "car_engine_repair",
+                                            "name": "ремонт двигателя"
+                                        },
+                                        {
+                                            "id": "car_full_service",
+                                            "name": "полное сервисное обслуживание"
+                                        },
+                                        {
+                                            "id": "car_glass_tinting",
+                                            "name": "тонировка стекол"
+                                        },
+                                        {
+                                            "id": "car_injector_cleaning",
+                                            "name": "промывка инжектора"
+                                        },
+                                        {
+                                            "id": "car_injector_nozzle",
+                                            "name": "чистка форсунок"
+                                        },
+                                        {
+                                            "id": "car_muffler_repair",
+                                            "name": "ремонт глушителей"
+                                        },
+                                        {
+                                            "id": "car_oil_change",
+                                            "name": "замена масла"
+                                        },
+                                        {
+                                            "id": "car_parking_system",
+                                            "name": "установка парктроника"
+                                        },
+                                        {
+                                            "id": "car_plastic_bumpers",
+                                            "name": "ремонт пластиковых бамперов"
+                                        },
+                                        {
+                                            "id": "car_pre_trip_inspection",
+                                            "name": "предрейсовый техосмотр"
+                                        },
+                                        {
+                                            "id": "car_repair_generators",
+                                            "name": "ремонт генераторов"
+                                        },
+                                        {
+                                            "id": "car_repair_starters",
+                                            "name": "ремонт стартеров"
+                                        },
+                                        {
+                                            "id": "car_transmission_repair",
+                                            "name": "ремонт КПП"
+                                        },
+                                        {
+                                            "id": "computer_diagnostics_car",
+                                            "name": "компьютерная диагностика автомобиля"
+                                        },
+                                        {
+                                            "id": "glass_services_car",
+                                            "name": "бронирование стекол"
+                                        },
+                                        {
+                                            "id": "polishing_car",
+                                            "name": "полировка"
+                                        },
+                                        {
+                                            "id": "running_gear",
+                                            "name": "ремонт ходовой части"
+                                        },
+                                        {
+                                            "id": "spraying_car",
+                                            "name": "покраска автомобиля"
+                                        },
+                                        {
+                                            "id": "steering_racks_repairs",
+                                            "name": "ремонт рулевых реек"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "car_brand",
+                                    "type": "EnumFeature",
+                                    "name": "марка автомобиля",
+                                    "enum": [
+                                        {
+                                            "id": "ac_cars",
+                                            "name": "AC Cars"
+                                        },
+                                        {
+                                            "id": "acura",
+                                            "name": "Acura"
+                                        },
+                                        {
+                                            "id": "admiral",
+                                            "name": "Admiral"
+                                        },
+                                        {
+                                            "id": "alfa_romeo",
+                                            "name": "Alfa Romeo"
+                                        },
+                                        {
+                                            "id": "all_cars",
+                                            "name": "все легковые"
+                                        },
+                                        {
+                                            "id": "alpina",
+                                            "name": "Alpina"
+                                        },
+                                        {
+                                            "id": "aro",
+                                            "name": "Aro"
+                                        },
+                                        {
+                                            "id": "asia",
+                                            "name": "Asia"
+                                        },
+                                        {
+                                            "id": "aston_martin",
+                                            "name": "Aston Martin"
+                                        },
+                                        {
+                                            "id": "audi",
+                                            "name": "Audi"
+                                        },
+                                        {
+                                            "id": "austin",
+                                            "name": "Austin"
+                                        },
+                                        {
+                                            "id": "baw",
+                                            "name": "BAW"
+                                        },
+                                        {
+                                            "id": "bentley",
+                                            "name": "Bentley"
+                                        },
+                                        {
+                                            "id": "bmw",
+                                            "name": "BMW"
+                                        },
+                                        {
+                                            "id": "bog_dan",
+                                            "name": "Богдан"
+                                        },
+                                        {
+                                            "id": "brilliance",
+                                            "name": "Brilliance"
+                                        },
+                                        {
+                                            "id": "bugatti",
+                                            "name": "Bugatti"
+                                        },
+                                        {
+                                            "id": "buick",
+                                            "name": "Buick"
+                                        },
+                                        {
+                                            "id": "byd",
+                                            "name": "BYD"
+                                        },
+                                        {
+                                            "id": "cadillac",
+                                            "name": "Cadillac"
+                                        },
+                                        {
+                                            "id": "camc",
+                                            "name": "Camc"
+                                        },
+                                        {
+                                            "id": "caterham",
+                                            "name": "Caterham"
+                                        },
+                                        {
+                                            "id": "changan",
+                                            "name": "Changan"
+                                        },
+                                        {
+                                            "id": "changfeng",
+                                            "name": "Changfeng"
+                                        },
+                                        {
+                                            "id": "chery",
+                                            "name": "Chery"
+                                        },
+                                        {
+                                            "id": "chevrolet",
+                                            "name": "Chevrolet"
+                                        },
+                                        {
+                                            "id": "chevrolet_niva",
+                                            "name": "Chevrolet Niva"
+                                        },
+                                        {
+                                            "id": "chevrolet_viva",
+                                            "name": "Chevrolet-Viva"
+                                        },
+                                        {
+                                            "id": "chinese_cars",
+                                            "name": "китайские"
+                                        },
+                                        {
+                                            "id": "chrysler",
+                                            "name": "Chrysler"
+                                        },
+                                        {
+                                            "id": "citroen",
+                                            "name": "Citroen"
+                                        },
+                                        {
+                                            "id": "dacia",
+                                            "name": "Dacia"
+                                        },
+                                        {
+                                            "id": "dadi",
+                                            "name": "Dadi"
+                                        },
+                                        {
+                                            "id": "daewoo",
+                                            "name": "Daewoo"
+                                        },
+                                        {
+                                            "id": "daf",
+                                            "name": "DAF"
+                                        },
+                                        {
+                                            "id": "daihatsu",
+                                            "name": "Daihatsu"
+                                        },
+                                        {
+                                            "id": "daimler",
+                                            "name": "Daimler"
+                                        },
+                                        {
+                                            "id": "de_tomaso",
+                                            "name": "De Tomaso"
+                                        },
+                                        {
+                                            "id": "derways",
+                                            "name": "Derways"
+                                        },
+                                        {
+                                            "id": "dodge",
+                                            "name": "Dodge"
+                                        },
+                                        {
+                                            "id": "dong_feng",
+                                            "name": "Dong Feng"
+                                        },
+                                        {
+                                            "id": "doninvest",
+                                            "name": "Doninvest"
+                                        },
+                                        {
+                                            "id": "donkervoort",
+                                            "name": "Donkervoort"
+                                        },
+                                        {
+                                            "id": "eagle",
+                                            "name": "Eagle"
+                                        },
+                                        {
+                                            "id": "eraz",
+                                            "name": "ЕРАЗ"
+                                        },
+                                        {
+                                            "id": "european_cars",
+                                            "name": "европейские"
+                                        },
+                                        {
+                                            "id": "faw",
+                                            "name": "FAW"
+                                        },
+                                        {
+                                            "id": "ferrari",
+                                            "name": "Ferrari"
+                                        },
+                                        {
+                                            "id": "fiat",
+                                            "name": "FIAT"
+                                        },
+                                        {
+                                            "id": "ford",
+                                            "name": "Ford"
+                                        },
+                                        {
+                                            "id": "ford_cargo",
+                                            "name": "Ford Cargo"
+                                        },
+                                        {
+                                            "id": "foreign_cars",
+                                            "name": "импортные"
+                                        },
+                                        {
+                                            "id": "foton",
+                                            "name": "Foton"
+                                        },
+                                        {
+                                            "id": "fso",
+                                            "name": "FSO"
+                                        },
+                                        {
+                                            "id": "fsr",
+                                            "name": "FSR"
+                                        },
+                                        {
+                                            "id": "gaz",
+                                            "name": "ГАЗ"
+                                        },
+                                        {
+                                            "id": "geely",
+                                            "name": "Geely"
+                                        },
+                                        {
+                                            "id": "geo_car",
+                                            "name": "Geo car"
+                                        },
+                                        {
+                                            "id": "ginetta",
+                                            "name": "Ginetta"
+                                        },
+                                        {
+                                            "id": "gmc",
+                                            "name": "GMC"
+                                        },
+                                        {
+                                            "id": "gonow",
+                                            "name": "Gonow"
+                                        },
+                                        {
+                                            "id": "great_wall",
+                                            "name": "Great Wall"
+                                        },
+                                        {
+                                            "id": "hafei_motor",
+                                            "name": "Hafei Motor"
+                                        },
+                                        {
+                                            "id": "haima",
+                                            "name": "Haima"
+                                        },
+                                        {
+                                            "id": "hino",
+                                            "name": "hino"
+                                        },
+                                        {
+                                            "id": "holden",
+                                            "name": "Holden"
+                                        },
+                                        {
+                                            "id": "honda",
+                                            "name": "Honda"
+                                        },
+                                        {
+                                            "id": "howo",
+                                            "name": "Howo"
+                                        },
+                                        {
+                                            "id": "huanghai",
+                                            "name": "Huanghai"
+                                        },
+                                        {
+                                            "id": "hummer",
+                                            "name": "Hummer"
+                                        },
+                                        {
+                                            "id": "hyundai",
+                                            "name": "Hyundai"
+                                        },
+                                        {
+                                            "id": "hyundai_tagaz",
+                                            "name": "Hyundai ТагАЗ"
+                                        },
+                                        {
+                                            "id": "infiniti",
+                                            "name": "Infiniti"
+                                        },
+                                        {
+                                            "id": "intrall",
+                                            "name": "Intrall"
+                                        },
+                                        {
+                                            "id": "iran_khodro",
+                                            "name": "Iran Khodro"
+                                        },
+                                        {
+                                            "id": "isuzu",
+                                            "name": "Isuzu"
+                                        },
+                                        {
+                                            "id": "iveco",
+                                            "name": "Iveco"
+                                        },
+                                        {
+                                            "id": "izh",
+                                            "name": "ИЖ"
+                                        },
+                                        {
+                                            "id": "jac",
+                                            "name": "Jac"
+                                        },
+                                        {
+                                            "id": "jaguar",
+                                            "name": "Jaguar"
+                                        },
+                                        {
+                                            "id": "japanese_cars",
+                                            "name": "японские"
+                                        },
+                                        {
+                                            "id": "jeep",
+                                            "name": "Jeep"
+                                        },
+                                        {
+                                            "id": "jindei",
+                                            "name": "Jindei"
+                                        },
+                                        {
+                                            "id": "jmc",
+                                            "name": "JMC"
+                                        },
+                                        {
+                                            "id": "kamaz",
+                                            "name": "КАМАЗ"
+                                        },
+                                        {
+                                            "id": "kia",
+                                            "name": "Kia"
+                                        },
+                                        {
+                                            "id": "koenigsegg",
+                                            "name": "Koenigsegg"
+                                        },
+                                        {
+                                            "id": "korean_cars",
+                                            "name": "корейские"
+                                        },
+                                        {
+                                            "id": "kraz",
+                                            "name": "КРАЗ"
+                                        },
+                                        {
+                                            "id": "lada",
+                                            "name": "Лада"
+                                        },
+                                        {
+                                            "id": "lamborghini",
+                                            "name": "Lamborghini"
+                                        },
+                                        {
+                                            "id": "lancia",
+                                            "name": "Lancia"
+                                        },
+                                        {
+                                            "id": "land_rover",
+                                            "name": "Land Rover"
+                                        },
+                                        {
+                                            "id": "landwind",
+                                            "name": "Landwind"
+                                        },
+                                        {
+                                            "id": "ldv",
+                                            "name": "LDV"
+                                        },
+                                        {
+                                            "id": "lexus",
+                                            "name": "Lexus"
+                                        },
+                                        {
+                                            "id": "lifan",
+                                            "name": "Lifan"
+                                        },
+                                        {
+                                            "id": "lincoln",
+                                            "name": "Lincoln"
+                                        },
+                                        {
+                                            "id": "lotus",
+                                            "name": "Lotus"
+                                        },
+                                        {
+                                            "id": "luaz",
+                                            "name": "ЛУАЗ"
+                                        },
+                                        {
+                                            "id": "luxgen",
+                                            "name": "Luxgen"
+                                        },
+                                        {
+                                            "id": "mahindra",
+                                            "name": "Mahindra"
+                                        },
+                                        {
+                                            "id": "man",
+                                            "name": "MAN"
+                                        },
+                                        {
+                                            "id": "marcos",
+                                            "name": "Marcos"
+                                        },
+                                        {
+                                            "id": "maruti",
+                                            "name": "Maruti"
+                                        },
+                                        {
+                                            "id": "maserati",
+                                            "name": "Maserati"
+                                        },
+                                        {
+                                            "id": "maybach",
+                                            "name": "Maybach"
+                                        },
+                                        {
+                                            "id": "maz",
+                                            "name": "МАЗ"
+                                        },
+                                        {
+                                            "id": "mazda",
+                                            "name": "Mazda"
+                                        },
+                                        {
+                                            "id": "mclaren",
+                                            "name": "McLaren"
+                                        },
+                                        {
+                                            "id": "mercedes",
+                                            "name": "Mercedes-Benz"
+                                        },
+                                        {
+                                            "id": "mercury",
+                                            "name": "Mercury"
+                                        },
+                                        {
+                                            "id": "metrocab",
+                                            "name": "Metrocab"
+                                        },
+                                        {
+                                            "id": "mg",
+                                            "name": "MG"
+                                        },
+                                        {
+                                            "id": "microcar",
+                                            "name": "Microcar"
+                                        },
+                                        {
+                                            "id": "mini",
+                                            "name": "MINI"
+                                        },
+                                        {
+                                            "id": "mitsubishi",
+                                            "name": "Mitsubishi"
+                                        },
+                                        {
+                                            "id": "mitsuoka",
+                                            "name": "Mitsuoka"
+                                        },
+                                        {
+                                            "id": "morgan",
+                                            "name": "Morgan"
+                                        },
+                                        {
+                                            "id": "moskvich_car",
+                                            "name": "Москвич"
+                                        },
+                                        {
+                                            "id": "neoplan",
+                                            "name": "Neoplan"
+                                        },
+                                        {
+                                            "id": "nissan",
+                                            "name": "Nissan"
+                                        },
+                                        {
+                                            "id": "oldsmobile",
+                                            "name": "Oldsmobile"
+                                        },
+                                        {
+                                            "id": "opel",
+                                            "name": "Opel"
+                                        },
+                                        {
+                                            "id": "pagani",
+                                            "name": "Pagani"
+                                        },
+                                        {
+                                            "id": "panoz",
+                                            "name": "Panoz"
+                                        },
+                                        {
+                                            "id": "peugeot",
+                                            "name": "Peugeot"
+                                        },
+                                        {
+                                            "id": "plymouth",
+                                            "name": "Plymouth"
+                                        },
+                                        {
+                                            "id": "pontiac",
+                                            "name": "Pontiac"
+                                        },
+                                        {
+                                            "id": "porsche",
+                                            "name": "Porsche"
+                                        },
+                                        {
+                                            "id": "proton",
+                                            "name": "Proton"
+                                        },
+                                        {
+                                            "id": "puch",
+                                            "name": "PUCH"
+                                        },
+                                        {
+                                            "id": "renault",
+                                            "name": "Renault"
+                                        },
+                                        {
+                                            "id": "roewe",
+                                            "name": "Roewe"
+                                        },
+                                        {
+                                            "id": "rolls_royce",
+                                            "name": "Rolls-Royce"
+                                        },
+                                        {
+                                            "id": "rover",
+                                            "name": "Rover"
+                                        },
+                                        {
+                                            "id": "russian_cars",
+                                            "name": "отечественные"
+                                        },
+                                        {
+                                            "id": "saab",
+                                            "name": "Saab"
+                                        },
+                                        {
+                                            "id": "saber",
+                                            "name": "Saber"
+                                        },
+                                        {
+                                            "id": "saleen",
+                                            "name": "Saleen"
+                                        },
+                                        {
+                                            "id": "saturn",
+                                            "name": "Saturn"
+                                        },
+                                        {
+                                            "id": "scania_car",
+                                            "name": "Scania"
+                                        },
+                                        {
+                                            "id": "scion",
+                                            "name": "Scion"
+                                        },
+                                        {
+                                            "id": "seat",
+                                            "name": "SEAT"
+                                        },
+                                        {
+                                            "id": "seaz",
+                                            "name": "СеАЗ"
+                                        },
+                                        {
+                                            "id": "sens",
+                                            "name": "Sens"
+                                        },
+                                        {
+                                            "id": "shaanxi",
+                                            "name": "Shaanxi"
+                                        },
+                                        {
+                                            "id": "shuanghuan",
+                                            "name": "Shuanghuan"
+                                        },
+                                        {
+                                            "id": "skoda",
+                                            "name": "Skoda"
+                                        },
+                                        {
+                                            "id": "sma",
+                                            "name": "SMA"
+                                        },
+                                        {
+                                            "id": "smart",
+                                            "name": "Smart"
+                                        },
+                                        {
+                                            "id": "smz",
+                                            "name": "СМЗ"
+                                        },
+                                        {
+                                            "id": "special_cars",
+                                            "name": "спецтехника"
+                                        },
+                                        {
+                                            "id": "spyker",
+                                            "name": "Spyker"
+                                        },
+                                        {
+                                            "id": "ssangyong",
+                                            "name": "SsangYong"
+                                        },
+                                        {
+                                            "id": "subaru",
+                                            "name": "Subaru"
+                                        },
+                                        {
+                                            "id": "suzuki",
+                                            "name": "Suzuki"
+                                        },
+                                        {
+                                            "id": "tagaz",
+                                            "name": "Тагаз"
+                                        },
+                                        {
+                                            "id": "talbot",
+                                            "name": "Talbot"
+                                        },
+                                        {
+                                            "id": "tata",
+                                            "name": "Tata"
+                                        },
+                                        {
+                                            "id": "tatra",
+                                            "name": "Tatra"
+                                        },
+                                        {
+                                            "id": "tianma",
+                                            "name": "Tianma"
+                                        },
+                                        {
+                                            "id": "tianye",
+                                            "name": "Tianye"
+                                        },
+                                        {
+                                            "id": "tofas",
+                                            "name": "Tofas"
+                                        },
+                                        {
+                                            "id": "toyota",
+                                            "name": "Toyota"
+                                        },
+                                        {
+                                            "id": "trabant",
+                                            "name": "Trabant"
+                                        },
+                                        {
+                                            "id": "trucks",
+                                            "name": "грузовые"
+                                        },
+                                        {
+                                            "id": "tvr",
+                                            "name": "TVR"
+                                        },
+                                        {
+                                            "id": "uaz",
+                                            "name": "УАЗ"
+                                        },
+                                        {
+                                            "id": "vaz",
+                                            "name": "ВАЗ"
+                                        },
+                                        {
+                                            "id": "velta",
+                                            "name": "Велта"
+                                        },
+                                        {
+                                            "id": "venturi",
+                                            "name": "Venturi"
+                                        },
+                                        {
+                                            "id": "vis",
+                                            "name": "ВИС"
+                                        },
+                                        {
+                                            "id": "volkswagen",
+                                            "name": "Volkswagen"
+                                        },
+                                        {
+                                            "id": "volvo",
+                                            "name": "Volvo"
+                                        },
+                                        {
+                                            "id": "vortex",
+                                            "name": "Vortex"
+                                        },
+                                        {
+                                            "id": "wartburg",
+                                            "name": "Wartburg"
+                                        },
+                                        {
+                                            "id": "wiesmann",
+                                            "name": "Wiesmann"
+                                        },
+                                        {
+                                            "id": "xin_kai",
+                                            "name": "Xin Kai"
+                                        },
+                                        {
+                                            "id": "yzk",
+                                            "name": "Yzk"
+                                        },
+                                        {
+                                            "id": "zaz",
+                                            "name": "ЗАЗ"
+                                        },
+                                        {
+                                            "id": "zil",
+                                            "name": "ЗИЛ"
+                                        },
+                                        {
+                                            "id": "zx",
+                                            "name": "ZX"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Point": {
+                                "type": "Point",
+                                "coordinates": [37.642923000000003, 55.693013000000001]
+                            },
+                            "boundedBy": [
+                                [37.413519999999998, 55.581530999999998],
+                                [37.872326000000001, 55.804177000000003]
+                            ]
+                        }
+                    }
+                }
+            },
+            "InternalResponseInfo": {
+                "display": "multiple",
+                "context": "BQAAAAEAAAAAAACQdkAAAAAAAKBmQAAAAAAAAPC\/AAAAAAAA8L8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==",
+                "reqid": "141309752806516429",
+                "serpid": "141309752806516429"
+            }
+        }
+    }
+}, "features": [
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1126948568",
+                "name": "АвтоПассаж",
+                "address": "Москва, Варшавское ш., 138а",
+                "postalCode": "117519",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Москва, Варшавское ш., 138а",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "Locality": {
+                            "LocalityName": "город Москва",
+                            "Thoroughfare": {
+                                "ThoroughfareName": "Варшавское шоссе",
+                                "Premise": {
+                                    "PremiseNumber": "138а",
+                                    "PostalCode": {
+                                        "PostalCodeNumber": "117519"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/autopassage.ru",
+                "urls": ["http:\/\/autopassage.ru", "http:\/\/www.lr.autopassage.ru", "http:\/\/ford.autopassage.ru", "http:\/\/jaguar.autopassage.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "class": "auto",
+                        "name": "Магазины автозапчастей и автотоваров",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Автосалоны",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 923-73-53",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "9237353"
+                    },
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 363-95-95",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "3639595",
+                        "info": "Форд"
+                    },
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 363-97-79",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "3639779",
+                        "info": "Ленд Ровер\/Рендж Ровер"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Monday": true,
+                            "Tuesday": true,
+                            "Wednesday": true,
+                            "Thursday": true,
+                            "Friday": true,
+                            "Intervals": [
+                                {
+                                    "from": "09:00:00",
+                                    "to": "21:00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "Saturday": true,
+                            "Sunday": true,
+                            "Intervals": [
+                                {
+                                    "from": "10:00:00",
+                                    "to": "22:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "пн-пт 09:00-21:00; сб,вс 10:00-22:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "labor_time",
+                        "type": "text",
+                        "name": "нормочас",
+                        "value": "2300 руб"
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": true
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "wi_fi",
+                        "type": "bool",
+                        "name": "бесплатный wi-fi",
+                        "value": true
+                    },
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["Ford", "Land Rover", "Jaguar"],
+                        "Values": [
+                            {
+                                "id": "ford",
+                                "value": "Ford"
+                            },
+                            {
+                                "id": "land_rover",
+                                "value": "Land Rover"
+                            },
+                            {
+                                "id": "jaguar",
+                                "value": "Jaguar"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["ремонт ходовой части", "ремонт двигателя", "ремонт автоэлектрики", "ремонт генераторов", "ремонт стартеров", "ремонт глушителей", "ремонт АКПП", "ремонт КПП"],
+                        "Values": [
+                            {
+                                "id": "running_gear",
+                                "value": "ремонт ходовой части"
+                            },
+                            {
+                                "id": "car_engine_repair",
+                                "value": "ремонт двигателя"
+                            },
+                            {
+                                "id": "car_electrician_repair",
+                                "value": "ремонт автоэлектрики"
+                            },
+                            {
+                                "id": "car_repair_generators",
+                                "value": "ремонт генераторов"
+                            },
+                            {
+                                "id": "car_repair_starters",
+                                "value": "ремонт стартеров"
+                            },
+                            {
+                                "id": "car_muffler_repair",
+                                "value": "ремонт глушителей"
+                            },
+                            {
+                                "id": "car_automatic_transmission",
+                                "value": "ремонт АКПП"
+                            },
+                            {
+                                "id": "car_transmission_repair",
+                                "value": "ремонт КПП"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": true
+                    },
+                    {
+                        "id": "official_dealer",
+                        "type": "bool",
+                        "name": "официальный дилер",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_sales",
+                        "type": "enum",
+                        "name": "продажа автомобилей",
+                        "values": ["новые", "с пробегом"],
+                        "Values": [
+                            {
+                                "id": "new_cars",
+                                "value": "новые"
+                            },
+                            {
+                                "id": "cars_mileage",
+                                "value": "с пробегом"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "test_drive",
+                        "type": "bool",
+                        "name": "тест-драйв",
+                        "value": true
+                    },
+                    {
+                        "id": "trade_in",
+                        "type": "bool",
+                        "name": "трейд-ин",
+                        "value": true
+                    },
+                    {
+                        "id": "vehicle_repurchase",
+                        "type": "bool",
+                        "name": "выкуп авто",
+                        "value": false
+                    },
+                    {
+                        "id": "loan_processing",
+                        "type": "bool",
+                        "name": "автокредит",
+                        "value": true
+                    },
+                    {
+                        "id": "registration_inspection",
+                        "type": "bool",
+                        "name": "постановка на учет, техосмотр",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_insurance_type",
+                        "type": "enum",
+                        "values": ["КАСКО\/ОСАГО"],
+                        "Values": [
+                            {
+                                "id": "auto_kasko_osago",
+                                "value": "КАСКО\/ОСАГО"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "leasing_registration",
+                        "type": "bool",
+                        "name": "лизинг",
+                        "value": false
+                    },
+                    {
+                        "id": "atm",
+                        "type": "bool",
+                        "name": "банкомат",
+                        "value": true
+                    },
+                    {
+                        "id": "cafe_relax_area",
+                        "type": "bool",
+                        "name": "кафе, зона отдыха",
+                        "value": true
+                    },
+                    {
+                        "id": "insurance_formalization",
+                        "type": "bool",
+                        "name": "оформление страховки",
+                        "value": true
+                    },
+                    {
+                        "id": "subdealer",
+                        "type": "bool",
+                        "name": "субдилер",
+                        "value": true
+                    },
+                    {
+                        "id": "nursery",
+                        "type": "bool",
+                        "name": "детская комната",
+                        "value": false
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "car_repairs", "car_wash"]
+                },
+                "InternalCompanyInfo": {
+                    "ids": ["1126948568", "1337678030", "1052786702", "1058226346", "1168113677", "1034406355", "1031193239", "1056925440", "1135643397", "1135512816"],
+                    "geoid": "213"
+                }
+            },
+            "description": "Москва, Варшавское ш., 138а",
+            "name": "АвтоПассаж",
+            "boundedBy": [
+                [37.600746909999998, 55.609339499999997],
+                [37.617204049999998, 55.618653899999998]
+            ],
+            "attributions": ["#mgts", "#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.608975000000001, 55.613996999999998]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1119657847",
+                "name": "Звезда Столицы Варшавка",
+                "address": "Москва, Варшавское ш., 127",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Москва, Варшавское ш., 127",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "Locality": {
+                            "LocalityName": "город Москва",
+                            "Thoroughfare": {
+                                "ThoroughfareName": "Варшавское шоссе",
+                                "Premise": {
+                                    "PremiseNumber": "127"
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/www.mercedes-zs.ru",
+                "urls": ["http:\/\/www.mercedes-zs.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Автосалоны",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "class": "auto",
+                        "name": "Магазины автозапчастей и автотоваров",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (499) 707-30-10",
+                        "country": "7",
+                        "prefix": "499",
+                        "number": "7073010",
+                        "info": "многоканальный"
+                    },
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (499) 707-55-30",
+                        "country": "7",
+                        "prefix": "499",
+                        "number": "7075530"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Everyday": true,
+                            "Intervals": [
+                                {
+                                    "from": "08:00:00",
+                                    "to": "22:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "ежедневно, 08:00-22:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "wheel_alignment",
+                        "type": "bool",
+                        "name": "развал-схождение",
+                        "value": true
+                    },
+                    {
+                        "id": "body_repair",
+                        "type": "bool",
+                        "name": "кузовной ремонт",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": true
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "wi_fi",
+                        "type": "bool",
+                        "name": "бесплатный wi-fi",
+                        "value": true
+                    },
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["Mercedes-Benz"],
+                        "Values": [
+                            {
+                                "id": "mercedes",
+                                "value": "Mercedes-Benz"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["ремонт ходовой части", "полное сервисное обслуживание", "сигнализация", "ремонт автоэлектрики", "ремонт рулевых реек", "ремонт двигателя", "ремонт АКПП", "ремонт КПП", "ремонт пластиковых бамперов", "замена тормозных дисков", "ремонт глушителей", "покраска автомобиля", "компьютерная диагностика автомобиля", "полировка", "замена масла", "тонировка стекол", "установка парктроника", "заправка автокондиционера", "промывка инжектора", "чистка форсунок", "предрейсовый техосмотр"],
+                        "Values": [
+                            {
+                                "id": "running_gear",
+                                "value": "ремонт ходовой части"
+                            },
+                            {
+                                "id": "car_full_service",
+                                "value": "полное сервисное обслуживание"
+                            },
+                            {
+                                "id": "car_alarm",
+                                "value": "сигнализация"
+                            },
+                            {
+                                "id": "car_electrician_repair",
+                                "value": "ремонт автоэлектрики"
+                            },
+                            {
+                                "id": "steering_racks_repairs",
+                                "value": "ремонт рулевых реек"
+                            },
+                            {
+                                "id": "car_engine_repair",
+                                "value": "ремонт двигателя"
+                            },
+                            {
+                                "id": "car_automatic_transmission",
+                                "value": "ремонт АКПП"
+                            },
+                            {
+                                "id": "car_transmission_repair",
+                                "value": "ремонт КПП"
+                            },
+                            {
+                                "id": "car_plastic_bumpers",
+                                "value": "ремонт пластиковых бамперов"
+                            },
+                            {
+                                "id": "car_brake_disc",
+                                "value": "замена тормозных дисков"
+                            },
+                            {
+                                "id": "car_muffler_repair",
+                                "value": "ремонт глушителей"
+                            },
+                            {
+                                "id": "spraying_car",
+                                "value": "покраска автомобиля"
+                            },
+                            {
+                                "id": "computer_diagnostics_car",
+                                "value": "компьютерная диагностика автомобиля"
+                            },
+                            {
+                                "id": "polishing_car",
+                                "value": "полировка"
+                            },
+                            {
+                                "id": "car_oil_change",
+                                "value": "замена масла"
+                            },
+                            {
+                                "id": "car_glass_tinting",
+                                "value": "тонировка стекол"
+                            },
+                            {
+                                "id": "car_parking_system",
+                                "value": "установка парктроника"
+                            },
+                            {
+                                "id": "car_a_c",
+                                "value": "заправка автокондиционера"
+                            },
+                            {
+                                "id": "car_injector_cleaning",
+                                "value": "промывка инжектора"
+                            },
+                            {
+                                "id": "car_injector_nozzle",
+                                "value": "чистка форсунок"
+                            },
+                            {
+                                "id": "car_pre_trip_inspection",
+                                "value": "предрейсовый техосмотр"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": true
+                    },
+                    {
+                        "id": "tire_fitting",
+                        "type": "bool",
+                        "name": "шиномонтаж",
+                        "value": true
+                    },
+                    {
+                        "id": "maintenance",
+                        "type": "bool",
+                        "name": "ТО",
+                        "value": true
+                    },
+                    {
+                        "id": "arts",
+                        "type": "enum",
+                        "name": "запчасти",
+                        "values": ["для легковых автомобилей", "для иномарок"],
+                        "Values": [
+                            {
+                                "id": "spare_parts_cars",
+                                "value": "для легковых автомобилей"
+                            },
+                            {
+                                "id": "parts_foreign_brands",
+                                "value": "для иномарок"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "official_dealer",
+                        "type": "bool",
+                        "name": "официальный дилер",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_sales",
+                        "type": "enum",
+                        "name": "продажа автомобилей",
+                        "values": ["новые", "с пробегом"],
+                        "Values": [
+                            {
+                                "id": "new_cars",
+                                "value": "новые"
+                            },
+                            {
+                                "id": "cars_mileage",
+                                "value": "с пробегом"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "test_drive",
+                        "type": "bool",
+                        "name": "тест-драйв",
+                        "value": true
+                    },
+                    {
+                        "id": "trade_in",
+                        "type": "bool",
+                        "name": "трейд-ин",
+                        "value": true
+                    },
+                    {
+                        "id": "vehicle_repurchase",
+                        "type": "bool",
+                        "name": "выкуп авто",
+                        "value": true
+                    },
+                    {
+                        "id": "loan_processing",
+                        "type": "bool",
+                        "name": "автокредит",
+                        "value": true
+                    },
+                    {
+                        "id": "registration_inspection",
+                        "type": "bool",
+                        "name": "постановка на учет, техосмотр",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_insurance_type",
+                        "type": "enum",
+                        "values": ["КАСКО\/ОСАГО"],
+                        "Values": [
+                            {
+                                "id": "auto_kasko_osago",
+                                "value": "КАСКО\/ОСАГО"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "leasing_registration",
+                        "type": "bool",
+                        "name": "лизинг",
+                        "value": true
+                    },
+                    {
+                        "id": "atm",
+                        "type": "bool",
+                        "name": "банкомат",
+                        "value": true
+                    },
+                    {
+                        "id": "cafe_relax_area",
+                        "type": "bool",
+                        "name": "кафе, зона отдыха",
+                        "value": true
+                    },
+                    {
+                        "id": "insurance_formalization",
+                        "type": "bool",
+                        "name": "оформление страховки",
+                        "value": true
+                    },
+                    {
+                        "id": "subdealer",
+                        "type": "bool",
+                        "name": "субдилер",
+                        "value": false
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "official_dealer", "auto_sales", "test_drive", "trade_in", "vehicle_repurchase", "loan_processing", "registration_inspection", "auto_insurance_type", "leasing_registration", "cafe_relax_area", "wi_fi"]
+                },
+                "InternalCompanyInfo": {
+                    "ids": ["1119657847", "1022210755", "1172066556", "1097903909", "1087263510", "1112956447", "1095891063"],
+                    "geoid": "213",
+                    "emails": ["mercedes-zs@bmedia.ru"]
+                }
+            },
+            "description": "Москва, Варшавское ш., 127",
+            "name": "Звезда Столицы Варшавка",
+            "boundedBy": [
+                [37.607888520000003, 55.616106899999998],
+                [37.624345660000003, 55.62541968]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.616117000000003, 55.620764000000001]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1100731119",
+                "name": "Тойота Центр Ясенево",
+                "address": "Москва, МКАД, 39-й км, вл. 7",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Москва, МКАД, 39-й км, вл. 7",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "Locality": {
+                            "LocalityName": "город Москва",
+                            "Thoroughfare": {
+                                "ThoroughfareName": "МКАД, 39-й км",
+                                "Premise": {
+                                    "PremiseNumber": "вл. 7"
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/www.rolf.ru\/auto\/new\/toyota",
+                "urls": ["http:\/\/www.rolf.ru\/auto\/new\/toyota", "http:\/\/www.toyota-yasenevo.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Автосалоны",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "class": "auto",
+                        "name": "Магазины автозапчастей и автотоваров",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 777-77-15",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "7777715"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Everyday": true,
+                            "Intervals": [
+                                {
+                                    "from": "08:00:00",
+                                    "to": "22:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "ежедневно, 08:00-22:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "basic_service",
+                        "type": "bool",
+                        "name": "базовое сервисное обслуживание",
+                        "value": true
+                    },
+                    {
+                        "id": "wheel_alignment",
+                        "type": "bool",
+                        "name": "развал-схождение",
+                        "value": true
+                    },
+                    {
+                        "id": "body_repair",
+                        "type": "bool",
+                        "name": "кузовной ремонт",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": true
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "wi_fi",
+                        "type": "bool",
+                        "name": "бесплатный wi-fi",
+                        "value": true
+                    },
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["Toyota", "Lexus"],
+                        "Values": [
+                            {
+                                "id": "toyota",
+                                "value": "Toyota"
+                            },
+                            {
+                                "id": "lexus",
+                                "value": "Lexus"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["ремонт двигателя", "ремонт АКПП", "ремонт КПП", "ремонт пластиковых бамперов", "замена тормозных дисков", "ремонт глушителей", "покраска автомобиля", "компьютерная диагностика автомобиля", "полировка", "замена масла", "тонировка стекол", "установка парктроника", "заправка автокондиционера", "промывка инжектора", "чистка форсунок", "ремонт автоэлектрики", "полное сервисное обслуживание"],
+                        "Values": [
+                            {
+                                "id": "car_engine_repair",
+                                "value": "ремонт двигателя"
+                            },
+                            {
+                                "id": "car_automatic_transmission",
+                                "value": "ремонт АКПП"
+                            },
+                            {
+                                "id": "car_transmission_repair",
+                                "value": "ремонт КПП"
+                            },
+                            {
+                                "id": "car_plastic_bumpers",
+                                "value": "ремонт пластиковых бамперов"
+                            },
+                            {
+                                "id": "car_brake_disc",
+                                "value": "замена тормозных дисков"
+                            },
+                            {
+                                "id": "car_muffler_repair",
+                                "value": "ремонт глушителей"
+                            },
+                            {
+                                "id": "spraying_car",
+                                "value": "покраска автомобиля"
+                            },
+                            {
+                                "id": "computer_diagnostics_car",
+                                "value": "компьютерная диагностика автомобиля"
+                            },
+                            {
+                                "id": "polishing_car",
+                                "value": "полировка"
+                            },
+                            {
+                                "id": "car_oil_change",
+                                "value": "замена масла"
+                            },
+                            {
+                                "id": "car_glass_tinting",
+                                "value": "тонировка стекол"
+                            },
+                            {
+                                "id": "car_parking_system",
+                                "value": "установка парктроника"
+                            },
+                            {
+                                "id": "car_a_c",
+                                "value": "заправка автокондиционера"
+                            },
+                            {
+                                "id": "car_injector_cleaning",
+                                "value": "промывка инжектора"
+                            },
+                            {
+                                "id": "car_injector_nozzle",
+                                "value": "чистка форсунок"
+                            },
+                            {
+                                "id": "car_electrician_repair",
+                                "value": "ремонт автоэлектрики"
+                            },
+                            {
+                                "id": "car_full_service",
+                                "value": "полное сервисное обслуживание"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": false
+                    },
+                    {
+                        "id": "tire_fitting",
+                        "type": "bool",
+                        "name": "шиномонтаж",
+                        "value": true
+                    },
+                    {
+                        "id": "maintenance",
+                        "type": "bool",
+                        "name": "ТО",
+                        "value": true
+                    },
+                    {
+                        "id": "arts",
+                        "type": "enum",
+                        "name": "запчасти",
+                        "values": ["для иномарок", "для легковых автомобилей"],
+                        "Values": [
+                            {
+                                "id": "parts_foreign_brands",
+                                "value": "для иномарок"
+                            },
+                            {
+                                "id": "spare_parts_cars",
+                                "value": "для легковых автомобилей"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "wholesale",
+                        "type": "bool",
+                        "name": "оптовые продажи",
+                        "value": true
+                    },
+                    {
+                        "id": "car_servicing",
+                        "type": "bool",
+                        "name": "автосервис",
+                        "value": true
+                    },
+                    {
+                        "id": "car_park",
+                        "type": "bool",
+                        "name": "гостевая парковка",
+                        "value": true
+                    },
+                    {
+                        "id": "official_dealer",
+                        "type": "bool",
+                        "name": "официальный дилер",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_sales",
+                        "type": "enum",
+                        "name": "продажа автомобилей",
+                        "values": ["новые", "с пробегом"],
+                        "Values": [
+                            {
+                                "id": "new_cars",
+                                "value": "новые"
+                            },
+                            {
+                                "id": "cars_mileage",
+                                "value": "с пробегом"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "test_drive",
+                        "type": "bool",
+                        "name": "тест-драйв",
+                        "value": true
+                    },
+                    {
+                        "id": "trade_in",
+                        "type": "bool",
+                        "name": "трейд-ин",
+                        "value": true
+                    },
+                    {
+                        "id": "vehicle_repurchase",
+                        "type": "bool",
+                        "name": "выкуп авто",
+                        "value": false
+                    },
+                    {
+                        "id": "loan_processing",
+                        "type": "bool",
+                        "name": "автокредит",
+                        "value": true
+                    },
+                    {
+                        "id": "registration_inspection",
+                        "type": "bool",
+                        "name": "постановка на учет, техосмотр",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_insurance_type",
+                        "type": "enum",
+                        "values": ["КАСКО\/ОСАГО"],
+                        "Values": [
+                            {
+                                "id": "auto_kasko_osago",
+                                "value": "КАСКО\/ОСАГО"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "leasing_registration",
+                        "type": "bool",
+                        "name": "лизинг",
+                        "value": true
+                    },
+                    {
+                        "id": "atm",
+                        "type": "bool",
+                        "name": "банкомат",
+                        "value": true
+                    },
+                    {
+                        "id": "cafe_relax_area",
+                        "type": "bool",
+                        "name": "кафе, зона отдыха",
+                        "value": true
+                    },
+                    {
+                        "id": "insurance_formalization",
+                        "type": "bool",
+                        "name": "оформление страховки",
+                        "value": true
+                    },
+                    {
+                        "id": "subdealer",
+                        "type": "bool",
+                        "name": "субдилер",
+                        "value": false
+                    },
+                    {
+                        "id": "nursery",
+                        "type": "bool",
+                        "name": "детская комната",
+                        "value": true
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "official_dealer", "auto_sales", "test_drive", "trade_in", "vehicle_repurchase", "loan_processing", "registration_inspection", "auto_insurance_type", "leasing_registration", "cafe_relax_area", "wi_fi"]
+                },
+                "InternalCompanyInfo": {
+                    "ids": ["1100731119", "1268024858"],
+                    "geoid": "213",
+                    "emails": ["toyota-yasenevo@rolf.ru"]
+                }
+            },
+            "description": "Москва, МКАД, 39-й км, вл. 7",
+            "name": "Тойота Центр Ясенево",
+            "boundedBy": [
+                [37.496174029999999, 55.594056430000002],
+                [37.512631169999999, 55.603374469999999]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.504406000000003, 55.598717000000001]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1084591039",
+                "name": "Панавто",
+                "address": "Московская обл., Одинцовский р-н, Заречье пос., ул. Торговая, 4, стр. 1",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Московская обл., Одинцовский р-н, Заречье пос., ул. Торговая, 4, стр. 1",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "AdministrativeArea": {
+                            "AdministrativeAreaName": "Московская область",
+                            "SubAdministrativeArea": {
+                                "SubAdministrativeAreaName": "Одинцовский район",
+                                "Locality": {
+                                    "LocalityName": "поселок Заречье",
+                                    "Thoroughfare": {
+                                        "ThoroughfareName": "улица Торговая",
+                                        "Premise": {
+                                            "PremiseNumber": "4, стр. 1"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/www.mercedes-panavto.ru",
+                "urls": ["http:\/\/www.mercedes-panavto.ru", "http:\/\/www.panavto.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Автосалоны",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 790-77-77",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "7907777"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Everyday": true,
+                            "TwentyFourHours": true
+                        }
+                    ],
+                    "text": "ежедневно, круглосуточно"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["Mercedes-Benz"],
+                        "Values": [
+                            {
+                                "id": "mercedes",
+                                "value": "Mercedes-Benz"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "official_dealer",
+                        "type": "bool",
+                        "name": "официальный дилер",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_sales",
+                        "type": "enum",
+                        "name": "продажа автомобилей",
+                        "values": ["новые", "с пробегом"],
+                        "Values": [
+                            {
+                                "id": "new_cars",
+                                "value": "новые"
+                            },
+                            {
+                                "id": "cars_mileage",
+                                "value": "с пробегом"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "test_drive",
+                        "type": "bool",
+                        "name": "тест-драйв",
+                        "value": true
+                    },
+                    {
+                        "id": "trade_in",
+                        "type": "bool",
+                        "name": "трейд-ин",
+                        "value": true
+                    },
+                    {
+                        "id": "loan_processing",
+                        "type": "bool",
+                        "name": "автокредит",
+                        "value": true
+                    },
+                    {
+                        "id": "registration_inspection",
+                        "type": "bool",
+                        "name": "постановка на учет, техосмотр",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_insurance_type",
+                        "type": "enum",
+                        "values": ["КАСКО\/ОСАГО"],
+                        "Values": [
+                            {
+                                "id": "auto_kasko_osago",
+                                "value": "КАСКО\/ОСАГО"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "leasing_registration",
+                        "type": "bool",
+                        "name": "лизинг",
+                        "value": true
+                    },
+                    {
+                        "id": "insurance_formalization",
+                        "type": "bool",
+                        "name": "оформление страховки",
+                        "value": true
+                    },
+                    {
+                        "id": "labor_time",
+                        "type": "text",
+                        "name": "нормочас",
+                        "value": "4100–6800 руб\/час"
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": true
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_method",
+                        "type": "enum",
+                        "name": "оплата",
+                        "values": ["дисконтная система скидок", "наличными"],
+                        "Values": [
+                            {
+                                "id": "discount_system",
+                                "value": "дисконтная система скидок"
+                            },
+                            {
+                                "id": "cash",
+                                "value": "наличными"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["полное сервисное обслуживание"],
+                        "Values": [
+                            {
+                                "id": "car_full_service",
+                                "value": "полное сервисное обслуживание"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": true
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "official_dealer", "auto_sales", "test_drive", "trade_in", "loan_processing", "registration_inspection", "auto_insurance_type", "leasing_registration"]
+                },
+                "Links": [
+                    {
+                        "type": "social",
+                        "aref": "#foursquare",
+                        "href": "http:\/\/ru.foursquare.com\/v\/mercedes-benz-%D0%BF%D0%B0%D0%BD%D0%B0%D0%B2%D1%82%D0%BE\/4da19e077ccc816e363d567b"
+                    },
+                    {
+                        "type": "social",
+                        "aref": "#vkontakte",
+                        "href": "http:\/\/vk.com\/public25815408"
+                    },
+                    {
+                        "type": "social",
+                        "aref": "#foursquare",
+                        "href": "http:\/\/ru.foursquare.com\/p\/%D0%BF%D0%B0%D0%BD%D0%B0%D0%B2%D1%82%D0%BE\/49421830"
+                    },
+                    {
+                        "type": "social",
+                        "aref": "#facebook",
+                        "href": "http:\/\/www.facebook.com\/panavto?ref=hl"
+                    },
+                    {
+                        "type": "social",
+                        "href": "http:\/\/instagram.com\/panavto"
+                    },
+                    {
+                        "type": "social",
+                        "aref": "#twitter",
+                        "href": "http:\/\/twitter.com\/PanavtoMercedes"
+                    }
+                ],
+                "InternalCompanyInfo": {
+                    "ids": ["1084591039", "1143220348", "1068284184", "1040778349", "1063346582"],
+                    "geoid": "21653"
+                }
+            },
+            "description": "Московская обл., Одинцовский р-н, Заречье пос., ул. Торговая, 4, стр. 1",
+            "name": "Панавто",
+            "boundedBy": [
+                [37.405300459999999, 55.680488420000003],
+                [37.421757589999999, 55.689785839999999]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.413528999999997, 55.685136999999997]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1009942131",
+                "name": "РТС Авто",
+                "address": "Москва, Кулаков пер., 6",
+                "postalCode": "129626",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Москва, Кулаков пер., 6",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "Locality": {
+                            "LocalityName": "Москва город",
+                            "Thoroughfare": {
+                                "ThoroughfareName": "Кулаков переулок",
+                                "Premise": {
+                                    "PremiseNumber": "6",
+                                    "PostalCode": {
+                                        "PostalCodeNumber": "129626"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/www.rtsavto.ru",
+                "urls": ["http:\/\/www.rtsavto.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Кузовной ремонт",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "class": "auto",
+                        "name": "Шиномонтаж",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 980-63-75",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "9806375"
+                    },
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 980-63-78",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "9806378"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Everyday": true,
+                            "Intervals": [
+                                {
+                                    "from": "09:00:00",
+                                    "to": "21:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "ежедневно, 09:00-21:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "wheel_alignment",
+                        "type": "bool",
+                        "name": "развал-схождение",
+                        "value": true
+                    },
+                    {
+                        "id": "body_repair",
+                        "type": "bool",
+                        "name": "кузовной ремонт",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": true
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["все легковые", "Hyundai"],
+                        "Values": [
+                            {
+                                "id": "all_cars",
+                                "value": "все легковые"
+                            },
+                            {
+                                "id": "hyundai",
+                                "value": "Hyundai"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["полировка", "бронирование стекол", "компьютерная диагностика автомобиля", "замена масла", "чистка форсунок", "покраска автомобиля", "ремонт двигателя", "заправка автокондиционера", "тонировка стекол", "установка парктроника", "промывка инжектора", "ремонт КПП", "полное сервисное обслуживание", "ремонт ходовой части", "сигнализация", "ремонт автоэлектрики", "ремонт рулевых реек", "ремонт АКПП", "ремонт пластиковых бамперов", "замена тормозных дисков", "ремонт глушителей", "аэрография", "предрейсовый техосмотр"],
+                        "Values": [
+                            {
+                                "id": "polishing_car",
+                                "value": "полировка"
+                            },
+                            {
+                                "id": "glass_services_car",
+                                "value": "бронирование стекол"
+                            },
+                            {
+                                "id": "computer_diagnostics_car",
+                                "value": "компьютерная диагностика автомобиля"
+                            },
+                            {
+                                "id": "car_oil_change",
+                                "value": "замена масла"
+                            },
+                            {
+                                "id": "car_injector_nozzle",
+                                "value": "чистка форсунок"
+                            },
+                            {
+                                "id": "spraying_car",
+                                "value": "покраска автомобиля"
+                            },
+                            {
+                                "id": "car_engine_repair",
+                                "value": "ремонт двигателя"
+                            },
+                            {
+                                "id": "car_a_c",
+                                "value": "заправка автокондиционера"
+                            },
+                            {
+                                "id": "car_glass_tinting",
+                                "value": "тонировка стекол"
+                            },
+                            {
+                                "id": "car_parking_system",
+                                "value": "установка парктроника"
+                            },
+                            {
+                                "id": "car_injector_cleaning",
+                                "value": "промывка инжектора"
+                            },
+                            {
+                                "id": "car_transmission_repair",
+                                "value": "ремонт КПП"
+                            },
+                            {
+                                "id": "car_full_service",
+                                "value": "полное сервисное обслуживание"
+                            },
+                            {
+                                "id": "running_gear",
+                                "value": "ремонт ходовой части"
+                            },
+                            {
+                                "id": "car_alarm",
+                                "value": "сигнализация"
+                            },
+                            {
+                                "id": "car_electrician_repair",
+                                "value": "ремонт автоэлектрики"
+                            },
+                            {
+                                "id": "steering_racks_repairs",
+                                "value": "ремонт рулевых реек"
+                            },
+                            {
+                                "id": "car_automatic_transmission",
+                                "value": "ремонт АКПП"
+                            },
+                            {
+                                "id": "car_plastic_bumpers",
+                                "value": "ремонт пластиковых бамперов"
+                            },
+                            {
+                                "id": "car_brake_disc",
+                                "value": "замена тормозных дисков"
+                            },
+                            {
+                                "id": "car_muffler_repair",
+                                "value": "ремонт глушителей"
+                            },
+                            {
+                                "id": "car_aerography",
+                                "value": "аэрография"
+                            },
+                            {
+                                "id": "car_pre_trip_inspection",
+                                "value": "предрейсовый техосмотр"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": false
+                    },
+                    {
+                        "id": "tire_fitting",
+                        "type": "bool",
+                        "name": "шиномонтаж",
+                        "value": true
+                    },
+                    {
+                        "id": "maintenance",
+                        "type": "bool",
+                        "name": "ТО",
+                        "value": true
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "car_repairs", "car_wash", "tire_fitting", "maintenance"]
+                },
+                "Links": [
+                    {
+                        "type": "social",
+                        "aref": "#twitter",
+                        "href": "http:\/\/twitter.com\/rtsavto"
+                    },
+                    {
+                        "type": "social",
+                        "aref": "#vkontakte",
+                        "href": "http:\/\/vk.com\/rts_avto"
+                    }
+                ],
+                "InternalCompanyInfo": {
+                    "ids": ["1009942131", "1113501586", "1123041924", "1015160796"],
+                    "geoid": "213"
+                }
+            },
+            "description": "Москва, Кулаков пер., 6",
+            "name": "РТС Авто",
+            "boundedBy": [
+                [37.634631370000001, 55.799532300000003],
+                [37.6510885, 55.808801279999997]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.642859999999999, 55.804167]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1027997924",
+                "name": "Вита-Моторс",
+                "address": "Москва, ул. Генерала Дорохова, 5",
+                "postalCode": "121357",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Москва, ул. Генерала Дорохова, 5",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "Locality": {
+                            "LocalityName": "город Москва",
+                            "Thoroughfare": {
+                                "ThoroughfareName": "улица Генерала Дорохова",
+                                "Premise": {
+                                    "PremiseNumber": "5",
+                                    "PostalCode": {
+                                        "PostalCodeNumber": "121357"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/www.vita-motors.ru",
+                "urls": ["http:\/\/www.vita-motors.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 440-12-31",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "4401231"
+                    },
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 443-06-58",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "4430658"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Monday": true,
+                            "Tuesday": true,
+                            "Wednesday": true,
+                            "Thursday": true,
+                            "Friday": true,
+                            "Saturday": true,
+                            "Intervals": [
+                                {
+                                    "from": "10:00:00",
+                                    "to": "22:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "пн-сб 10:00-22:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "wheel_alignment",
+                        "type": "bool",
+                        "name": "развал-схождение",
+                        "value": true
+                    },
+                    {
+                        "id": "authorized_service",
+                        "type": "bool",
+                        "name": "официальный автосервис",
+                        "value": false
+                    },
+                    {
+                        "id": "labor_time",
+                        "type": "text",
+                        "name": "нормочас",
+                        "value": "1250–1350 руб"
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": false
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "wi_fi",
+                        "type": "bool",
+                        "name": "бесплатный wi-fi",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_method",
+                        "type": "enum",
+                        "name": "оплата",
+                        "values": ["наличными"],
+                        "Values": [
+                            {
+                                "id": "cash",
+                                "value": "наличными"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["импортные", "Geo car", "Buick", "Cadillac", "Chevrolet", "Chrysler", "Dodge", "Ford", "GMC", "Hummer", "Jaguar", "Jeep", "Lincoln", "Mercury", "Pontiac", "Saturn", "Eagle", "Oldsmobile"],
+                        "Values": [
+                            {
+                                "id": "foreign_cars",
+                                "value": "импортные"
+                            },
+                            {
+                                "id": "geo_car",
+                                "value": "Geo car"
+                            },
+                            {
+                                "id": "buick",
+                                "value": "Buick"
+                            },
+                            {
+                                "id": "cadillac",
+                                "value": "Cadillac"
+                            },
+                            {
+                                "id": "chevrolet",
+                                "value": "Chevrolet"
+                            },
+                            {
+                                "id": "chrysler",
+                                "value": "Chrysler"
+                            },
+                            {
+                                "id": "dodge",
+                                "value": "Dodge"
+                            },
+                            {
+                                "id": "ford",
+                                "value": "Ford"
+                            },
+                            {
+                                "id": "gmc",
+                                "value": "GMC"
+                            },
+                            {
+                                "id": "hummer",
+                                "value": "Hummer"
+                            },
+                            {
+                                "id": "jaguar",
+                                "value": "Jaguar"
+                            },
+                            {
+                                "id": "jeep",
+                                "value": "Jeep"
+                            },
+                            {
+                                "id": "lincoln",
+                                "value": "Lincoln"
+                            },
+                            {
+                                "id": "mercury",
+                                "value": "Mercury"
+                            },
+                            {
+                                "id": "pontiac",
+                                "value": "Pontiac"
+                            },
+                            {
+                                "id": "saturn",
+                                "value": "Saturn"
+                            },
+                            {
+                                "id": "eagle",
+                                "value": "Eagle"
+                            },
+                            {
+                                "id": "oldsmobile",
+                                "value": "Oldsmobile"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["ремонт ходовой части", "ремонт двигателя", "ремонт АКПП", "ремонт КПП", "замена тормозных дисков", "замена масла", "заправка автокондиционера", "промывка инжектора", "чистка форсунок"],
+                        "Values": [
+                            {
+                                "id": "running_gear",
+                                "value": "ремонт ходовой части"
+                            },
+                            {
+                                "id": "car_engine_repair",
+                                "value": "ремонт двигателя"
+                            },
+                            {
+                                "id": "car_automatic_transmission",
+                                "value": "ремонт АКПП"
+                            },
+                            {
+                                "id": "car_transmission_repair",
+                                "value": "ремонт КПП"
+                            },
+                            {
+                                "id": "car_brake_disc",
+                                "value": "замена тормозных дисков"
+                            },
+                            {
+                                "id": "car_oil_change",
+                                "value": "замена масла"
+                            },
+                            {
+                                "id": "car_a_c",
+                                "value": "заправка автокондиционера"
+                            },
+                            {
+                                "id": "car_injector_cleaning",
+                                "value": "промывка инжектора"
+                            },
+                            {
+                                "id": "car_injector_nozzle",
+                                "value": "чистка форсунок"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": true
+                    },
+                    {
+                        "id": "tire_fitting",
+                        "type": "bool",
+                        "name": "шиномонтаж",
+                        "value": true
+                    },
+                    {
+                        "id": "maintenance",
+                        "type": "bool",
+                        "name": "ТО",
+                        "value": true
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "car_repairs", "car_wash", "tire_fitting", "maintenance"]
+                },
+                "Links": [
+                    {
+                        "type": "social",
+                        "aref": "#facebook",
+                        "href": "http:\/\/www.facebook.com\/VitaMotors"
+                    },
+                    {
+                        "type": "social",
+                        "aref": "#vkontakte",
+                        "href": "http:\/\/vk.com\/vita_motors"
+                    }
+                ],
+                "InternalCompanyInfo": {
+                    "ids": ["1027997924", "1015275810", "1021039593"],
+                    "geoid": "213"
+                }
+            },
+            "description": "Москва, ул. Генерала Дорохова, 5",
+            "name": "Вита-Моторс",
+            "boundedBy": [
+                [37.441134259999998, 55.701622630000003],
+                [37.457591389999997, 55.710915010000001]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.449362999999998, 55.706268999999999]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1132877442",
+                "name": "Тойота Центр Измайлово",
+                "address": "Московская обл., Балашиха г., ш. Энтузиастов, 2, корп.1, Западная коммунальная зона",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Московская обл., Балашиха г., ш. Энтузиастов, 2, корп.1, Западная коммунальная зона",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "AdministrativeArea": {
+                            "AdministrativeAreaName": "Московская область",
+                            "Locality": {
+                                "LocalityName": "Балашиха город",
+                                "Thoroughfare": {
+                                    "ThoroughfareName": "шоссе Энтузиастов",
+                                    "Premise": {
+                                        "PremiseNumber": "2, корп.1, Западная коммунальная зона"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/www.toyota-i.ru",
+                "urls": ["http:\/\/www.toyota-i.ru", "http:\/\/www.toyota-izmailovo.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Автосалоны",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "class": "auto",
+                        "name": "Магазины автозапчастей и автотоваров",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 730-90-00",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "7309000"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Everyday": true,
+                            "Intervals": [
+                                {
+                                    "from": "07:00:00",
+                                    "to": "22:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "ежедневно, 07:00-22:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["Toyota"],
+                        "Values": [
+                            {
+                                "id": "toyota",
+                                "value": "Toyota"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "official_dealer",
+                        "type": "bool",
+                        "name": "официальный дилер",
+                        "value": true
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "official_dealer"]
+                },
+                "Links": [
+                    {
+                        "type": "social",
+                        "aref": "#facebook",
+                        "href": "http:\/\/www.facebook.com\/toyotai"
+                    }
+                ],
+                "InternalCompanyInfo": {
+                    "ids": ["1132877442", "1110889962", "1033036331", "1006651556"],
+                    "geoid": "10716"
+                }
+            },
+            "description": "Московская обл., Балашиха г., ш. Энтузиастов, 2, корп.1, Западная коммунальная зона",
+            "name": "Тойота Центр Измайлово",
+            "boundedBy": [
+                [37.864079060000002, 55.780911750000001],
+                [37.880536190000001, 55.790185180000002]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.872307999999997, 55.785549000000003]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1076565562",
+                "name": "Авто-Старт KIA",
+                "address": "Московская обл., Дзержинский, ул. Энергетиков, 24",
+                "postalCode": "140091",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Московская обл., Дзержинский, ул. Энергетиков, 24",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "AdministrativeArea": {
+                            "AdministrativeAreaName": "Московская область",
+                            "SubAdministrativeArea": {
+                                "SubAdministrativeAreaName": "городской округ Дзержинский",
+                                "Locality": {
+                                    "LocalityName": "Дзержинский",
+                                    "Thoroughfare": {
+                                        "ThoroughfareName": "улица Энергетиков",
+                                        "Premise": {
+                                            "PremiseNumber": "24",
+                                            "PostalCode": {
+                                                "PostalCodeNumber": "140091"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/www.avto-start-kia.ru",
+                "urls": ["http:\/\/www.avto-start-kia.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Автосалоны",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Выкуп автомобилей",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 225-23-53",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "2252353",
+                        "info": "Салон"
+                    },
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 225-23-63",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "2252363",
+                        "info": "сервис"
+                    },
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 225-23-52",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "2252352",
+                        "info": "С пробегом"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Monday": true,
+                            "Tuesday": true,
+                            "Wednesday": true,
+                            "Thursday": true,
+                            "Friday": true,
+                            "Intervals": [
+                                {
+                                    "from": "09:00:00",
+                                    "to": "21:00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "Saturday": true,
+                            "Sunday": true,
+                            "Intervals": [
+                                {
+                                    "from": "10:00:00",
+                                    "to": "21:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "пн-пт 09:00-21:00; сб,вс 10:00-21:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "wheel_alignment",
+                        "type": "bool",
+                        "name": "развал-схождение",
+                        "value": true
+                    },
+                    {
+                        "id": "body_repair",
+                        "type": "bool",
+                        "name": "кузовной ремонт",
+                        "value": true
+                    },
+                    {
+                        "id": "authorized_service",
+                        "type": "bool",
+                        "name": "официальный автосервис",
+                        "value": true
+                    },
+                    {
+                        "id": "labor_time",
+                        "type": "text",
+                        "name": "нормочас",
+                        "value": "800–1250 руб"
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": false
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "wi_fi",
+                        "type": "bool",
+                        "name": "бесплатный wi-fi",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_method",
+                        "type": "enum",
+                        "name": "оплата",
+                        "values": ["дисконтная система скидок", "постоплата", "наличными", "оплата картой", "банковским переводом", "скидки на услуги льготным категориям"],
+                        "Values": [
+                            {
+                                "id": "discount_system",
+                                "value": "дисконтная система скидок"
+                            },
+                            {
+                                "id": "postpay",
+                                "value": "постоплата"
+                            },
+                            {
+                                "id": "cash",
+                                "value": "наличными"
+                            },
+                            {
+                                "id": "payment_card",
+                                "value": "оплата картой"
+                            },
+                            {
+                                "id": "wire_transfer",
+                                "value": "банковским переводом"
+                            },
+                            {
+                                "id": "subsidized_discounts",
+                                "value": "скидки на услуги льготным категориям"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["Kia"],
+                        "Values": [
+                            {
+                                "id": "kia",
+                                "value": "Kia"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["ремонт стартеров", "ремонт генераторов", "ремонт ходовой части", "полное сервисное обслуживание", "сигнализация", "ремонт автоэлектрики", "ремонт двигателя", "ремонт АКПП", "ремонт КПП", "ремонт пластиковых бамперов", "замена тормозных дисков", "ремонт глушителей", "покраска автомобиля", "компьютерная диагностика автомобиля", "полировка", "замена масла", "тонировка стекол", "установка парктроника", "заправка автокондиционера", "промывка инжектора", "чистка форсунок", "предрейсовый техосмотр"],
+                        "Values": [
+                            {
+                                "id": "car_repair_starters",
+                                "value": "ремонт стартеров"
+                            },
+                            {
+                                "id": "car_repair_generators",
+                                "value": "ремонт генераторов"
+                            },
+                            {
+                                "id": "running_gear",
+                                "value": "ремонт ходовой части"
+                            },
+                            {
+                                "id": "car_full_service",
+                                "value": "полное сервисное обслуживание"
+                            },
+                            {
+                                "id": "car_alarm",
+                                "value": "сигнализация"
+                            },
+                            {
+                                "id": "car_electrician_repair",
+                                "value": "ремонт автоэлектрики"
+                            },
+                            {
+                                "id": "car_engine_repair",
+                                "value": "ремонт двигателя"
+                            },
+                            {
+                                "id": "car_automatic_transmission",
+                                "value": "ремонт АКПП"
+                            },
+                            {
+                                "id": "car_transmission_repair",
+                                "value": "ремонт КПП"
+                            },
+                            {
+                                "id": "car_plastic_bumpers",
+                                "value": "ремонт пластиковых бамперов"
+                            },
+                            {
+                                "id": "car_brake_disc",
+                                "value": "замена тормозных дисков"
+                            },
+                            {
+                                "id": "car_muffler_repair",
+                                "value": "ремонт глушителей"
+                            },
+                            {
+                                "id": "spraying_car",
+                                "value": "покраска автомобиля"
+                            },
+                            {
+                                "id": "computer_diagnostics_car",
+                                "value": "компьютерная диагностика автомобиля"
+                            },
+                            {
+                                "id": "polishing_car",
+                                "value": "полировка"
+                            },
+                            {
+                                "id": "car_oil_change",
+                                "value": "замена масла"
+                            },
+                            {
+                                "id": "car_glass_tinting",
+                                "value": "тонировка стекол"
+                            },
+                            {
+                                "id": "car_parking_system",
+                                "value": "установка парктроника"
+                            },
+                            {
+                                "id": "car_a_c",
+                                "value": "заправка автокондиционера"
+                            },
+                            {
+                                "id": "car_injector_cleaning",
+                                "value": "промывка инжектора"
+                            },
+                            {
+                                "id": "car_injector_nozzle",
+                                "value": "чистка форсунок"
+                            },
+                            {
+                                "id": "car_pre_trip_inspection",
+                                "value": "предрейсовый техосмотр"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": true
+                    },
+                    {
+                        "id": "tire_fitting",
+                        "type": "bool",
+                        "name": "шиномонтаж",
+                        "value": true
+                    },
+                    {
+                        "id": "maintenance",
+                        "type": "bool",
+                        "name": "ТО",
+                        "value": true
+                    },
+                    {
+                        "id": "official_dealer",
+                        "type": "bool",
+                        "name": "официальный дилер",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_sales",
+                        "type": "enum",
+                        "name": "продажа автомобилей",
+                        "values": ["новые", "с пробегом", "после аварий"],
+                        "Values": [
+                            {
+                                "id": "new_cars",
+                                "value": "новые"
+                            },
+                            {
+                                "id": "cars_mileage",
+                                "value": "с пробегом"
+                            },
+                            {
+                                "id": "car_accident",
+                                "value": "после аварий"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "test_drive",
+                        "type": "bool",
+                        "name": "тест-драйв",
+                        "value": true
+                    },
+                    {
+                        "id": "trade_in",
+                        "type": "bool",
+                        "name": "трейд-ин",
+                        "value": true
+                    },
+                    {
+                        "id": "vehicle_repurchase",
+                        "type": "bool",
+                        "name": "выкуп авто",
+                        "value": true
+                    },
+                    {
+                        "id": "loan_processing",
+                        "type": "bool",
+                        "name": "автокредит",
+                        "value": true
+                    },
+                    {
+                        "id": "registration_inspection",
+                        "type": "bool",
+                        "name": "постановка на учет, техосмотр",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_insurance_type",
+                        "type": "enum",
+                        "values": ["КАСКО\/ОСАГО"],
+                        "Values": [
+                            {
+                                "id": "auto_kasko_osago",
+                                "value": "КАСКО\/ОСАГО"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "leasing_registration",
+                        "type": "bool",
+                        "name": "лизинг",
+                        "value": true
+                    },
+                    {
+                        "id": "atm",
+                        "type": "bool",
+                        "name": "банкомат",
+                        "value": true
+                    },
+                    {
+                        "id": "cafe_relax_area",
+                        "type": "bool",
+                        "name": "кафе, зона отдыха",
+                        "value": true
+                    },
+                    {
+                        "id": "insurance_formalization",
+                        "type": "bool",
+                        "name": "оформление страховки",
+                        "value": true
+                    },
+                    {
+                        "id": "nursery",
+                        "type": "bool",
+                        "name": "детская комната",
+                        "value": true
+                    },
+                    {
+                        "id": "brokencars",
+                        "type": "bool",
+                        "name": "выкуп битых авто",
+                        "value": false
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "official_dealer", "auto_sales", "test_drive", "trade_in", "vehicle_repurchase", "loan_processing", "registration_inspection", "auto_insurance_type", "leasing_registration", "cafe_relax_area", "wi_fi"]
+                },
+                "InternalCompanyInfo": {
+                    "ids": ["1076565562", "1085656729"],
+                    "geoid": "21735",
+                    "emails": ["pr@avto-start.ru"]
+                }
+            },
+            "description": "Московская обл., Дзержинский, ул. Энергетиков, 24",
+            "name": "Авто-Старт KIA",
+            "boundedBy": [
+                [37.819289060000003, 55.63895789],
+                [37.835746190000002, 55.64826523]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.827517999999998, 55.643611999999997]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1076765807",
+                "name": "Тойота Центр Каширский",
+                "address": "Москва, МКАД, 26-й км, стр. 3, вл. 5",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Москва, МКАД, 26-й км, стр. 3, вл. 5",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "Locality": {
+                            "LocalityName": "город Москва",
+                            "Thoroughfare": {
+                                "ThoroughfareName": "МКАД, 26-й км",
+                                "Premise": {
+                                    "PremiseNumber": "стр. 3, вл. 5"
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/www.toyota-kashirsky.ru",
+                "urls": ["http:\/\/www.toyota-kashirsky.ru", "http:\/\/www.toyotabc.ru", "http:\/\/www.business-car.ru", "http:\/\/www.tradein-bc.ru", "http:\/\/www.auto-rent.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Автосалоны",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Пункты техосмотра",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "yandex_6615355764",
+                                "level": "2"
+                            }
+                        }
+                    }
+                ],
+                "Advert": {
+                    "title": "Компания \"СП БИЗНЕС КАР\".",
+                    "text": "Дилерские центры Тойота и Лексус в Москве. Работаем с 1992 года!",
+                    "extra": "Продажа и сервис автомобилей Toyota\/Lexus (новых и с пробегом). Выгодные цены и большой склад автомобилей в наличии. Онлайн заявка на сервис и тест-драйв. Программа страхования и кредитования.",
+                    "url": "http:\/\/www.business-car.ru\/activities\/"
+                },
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 221-00-33",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "2210033"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Everyday": true,
+                            "Intervals": [
+                                {
+                                    "from": "08:00:00",
+                                    "to": "21:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "ежедневно, 08:00-21:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["Toyota"],
+                        "Values": [
+                            {
+                                "id": "toyota",
+                                "value": "Toyota"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "official_dealer",
+                        "type": "bool",
+                        "name": "официальный дилер",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_sales",
+                        "type": "enum",
+                        "name": "продажа автомобилей",
+                        "values": ["новые", "с пробегом"],
+                        "Values": [
+                            {
+                                "id": "new_cars",
+                                "value": "новые"
+                            },
+                            {
+                                "id": "cars_mileage",
+                                "value": "с пробегом"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "test_drive",
+                        "type": "bool",
+                        "name": "тест-драйв",
+                        "value": true
+                    },
+                    {
+                        "id": "trade_in",
+                        "type": "bool",
+                        "name": "трейд-ин",
+                        "value": true
+                    },
+                    {
+                        "id": "vehicle_repurchase",
+                        "type": "bool",
+                        "name": "выкуп авто",
+                        "value": true
+                    },
+                    {
+                        "id": "loan_processing",
+                        "type": "bool",
+                        "name": "автокредит",
+                        "value": true
+                    },
+                    {
+                        "id": "registration_inspection",
+                        "type": "bool",
+                        "name": "постановка на учет, техосмотр",
+                        "value": true
+                    },
+                    {
+                        "id": "auto_insurance_type",
+                        "type": "enum",
+                        "values": ["КАСКО\/ОСАГО"],
+                        "Values": [
+                            {
+                                "id": "auto_kasko_osago",
+                                "value": "КАСКО\/ОСАГО"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "leasing_registration",
+                        "type": "bool",
+                        "name": "лизинг",
+                        "value": true
+                    },
+                    {
+                        "id": "atm",
+                        "type": "bool",
+                        "name": "банкомат",
+                        "value": true
+                    },
+                    {
+                        "id": "cafe_relax_area",
+                        "type": "bool",
+                        "name": "кафе, зона отдыха",
+                        "value": true
+                    },
+                    {
+                        "id": "insurance_formalization",
+                        "type": "bool",
+                        "name": "оформление страховки",
+                        "value": true
+                    },
+                    {
+                        "id": "subdealer",
+                        "type": "bool",
+                        "name": "субдилер",
+                        "value": false
+                    },
+                    {
+                        "id": "nursery",
+                        "type": "bool",
+                        "name": "детская комната",
+                        "value": true
+                    },
+                    {
+                        "id": "wi_fi",
+                        "type": "bool",
+                        "name": "бесплатный wi-fi",
+                        "value": true
+                    },
+                    {
+                        "id": "wheel_alignment",
+                        "type": "bool",
+                        "name": "развал-схождение",
+                        "value": true
+                    },
+                    {
+                        "id": "body_repair",
+                        "type": "bool",
+                        "name": "кузовной ремонт",
+                        "value": true
+                    },
+                    {
+                        "id": "authorized_service",
+                        "type": "bool",
+                        "name": "официальный автосервис",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": true
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_method",
+                        "type": "enum",
+                        "name": "оплата",
+                        "values": ["наличными", "оплата картой", "банковским переводом"],
+                        "Values": [
+                            {
+                                "id": "cash",
+                                "value": "наличными"
+                            },
+                            {
+                                "id": "payment_card",
+                                "value": "оплата картой"
+                            },
+                            {
+                                "id": "wire_transfer",
+                                "value": "банковским переводом"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["ремонт стартеров", "ремонт генераторов", "ремонт ходовой части", "полное сервисное обслуживание", "сигнализация", "ремонт автоэлектрики", "ремонт рулевых реек", "ремонт двигателя", "ремонт АКПП", "ремонт КПП", "ремонт пластиковых бамперов", "замена тормозных дисков", "ремонт глушителей", "покраска автомобиля", "аэрография", "компьютерная диагностика автомобиля", "полировка", "бронирование стекол", "замена масла", "тонировка стекол", "установка парктроника", "заправка автокондиционера", "промывка инжектора", "чистка форсунок", "предрейсовый техосмотр"],
+                        "Values": [
+                            {
+                                "id": "car_repair_starters",
+                                "value": "ремонт стартеров"
+                            },
+                            {
+                                "id": "car_repair_generators",
+                                "value": "ремонт генераторов"
+                            },
+                            {
+                                "id": "running_gear",
+                                "value": "ремонт ходовой части"
+                            },
+                            {
+                                "id": "car_full_service",
+                                "value": "полное сервисное обслуживание"
+                            },
+                            {
+                                "id": "car_alarm",
+                                "value": "сигнализация"
+                            },
+                            {
+                                "id": "car_electrician_repair",
+                                "value": "ремонт автоэлектрики"
+                            },
+                            {
+                                "id": "steering_racks_repairs",
+                                "value": "ремонт рулевых реек"
+                            },
+                            {
+                                "id": "car_engine_repair",
+                                "value": "ремонт двигателя"
+                            },
+                            {
+                                "id": "car_automatic_transmission",
+                                "value": "ремонт АКПП"
+                            },
+                            {
+                                "id": "car_transmission_repair",
+                                "value": "ремонт КПП"
+                            },
+                            {
+                                "id": "car_plastic_bumpers",
+                                "value": "ремонт пластиковых бамперов"
+                            },
+                            {
+                                "id": "car_brake_disc",
+                                "value": "замена тормозных дисков"
+                            },
+                            {
+                                "id": "car_muffler_repair",
+                                "value": "ремонт глушителей"
+                            },
+                            {
+                                "id": "spraying_car",
+                                "value": "покраска автомобиля"
+                            },
+                            {
+                                "id": "car_aerography",
+                                "value": "аэрография"
+                            },
+                            {
+                                "id": "computer_diagnostics_car",
+                                "value": "компьютерная диагностика автомобиля"
+                            },
+                            {
+                                "id": "polishing_car",
+                                "value": "полировка"
+                            },
+                            {
+                                "id": "glass_services_car",
+                                "value": "бронирование стекол"
+                            },
+                            {
+                                "id": "car_oil_change",
+                                "value": "замена масла"
+                            },
+                            {
+                                "id": "car_glass_tinting",
+                                "value": "тонировка стекол"
+                            },
+                            {
+                                "id": "car_parking_system",
+                                "value": "установка парктроника"
+                            },
+                            {
+                                "id": "car_a_c",
+                                "value": "заправка автокондиционера"
+                            },
+                            {
+                                "id": "car_injector_cleaning",
+                                "value": "промывка инжектора"
+                            },
+                            {
+                                "id": "car_injector_nozzle",
+                                "value": "чистка форсунок"
+                            },
+                            {
+                                "id": "car_pre_trip_inspection",
+                                "value": "предрейсовый техосмотр"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": true
+                    },
+                    {
+                        "id": "tire_fitting",
+                        "type": "bool",
+                        "name": "шиномонтаж",
+                        "value": true
+                    },
+                    {
+                        "id": "maintenance",
+                        "type": "bool",
+                        "name": "ТО",
+                        "value": true
+                    },
+                    {
+                        "id": "training_category",
+                        "type": "enum",
+                        "name": "категория",
+                        "values": ["\"B\"", "\"C\""],
+                        "Values": [
+                            {
+                                "id": "auto_b",
+                                "value": "\"B\""
+                            },
+                            {
+                                "id": "auto_c",
+                                "value": "\"C\""
+                            }
+                        ]
+                    },
+                    {
+                        "id": "official_checkup",
+                        "type": "bool",
+                        "name": "гостехосмотр",
+                        "value": true
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "official_dealer", "auto_sales", "test_drive", "trade_in", "vehicle_repurchase", "loan_processing", "registration_inspection", "auto_insurance_type", "leasing_registration", "cafe_relax_area", "wi_fi"]
+                },
+                "Links": [
+                    {
+                        "type": "social",
+                        "aref": "#youtube",
+                        "href": "http:\/\/www.youtube.com\/\/toyotakashirsky"
+                    },
+                    {
+                        "type": "social",
+                        "aref": "#facebook",
+                        "href": "http:\/\/www.facebook.com\/toyotakashirsky"
+                    },
+                    {
+                        "type": "social",
+                        "aref": "#twitter",
+                        "href": "http:\/\/twitter.com\/toyotakashirsky"
+                    }
+                ],
+                "InternalCompanyInfo": {
+                    "ids": ["1076765807", "1066304245", "1003654779", "1068344428", "1076863035", "1037375424"],
+                    "geoid": "213"
+                }
+            },
+            "description": "Москва, МКАД, 26-й км, стр. 3, вл. 5",
+            "name": "Тойота Центр Каширский",
+            "boundedBy": [
+                [37.699606510000002, 55.576874269999998],
+                [37.716063650000002, 55.586196409999999]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.707836, 55.581535000000002]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "CompanyMetaData": {
+                "id": "1237466368",
+                "name": "Юнайт-Авто",
+                "address": "Москва, 1-й Дорожный пр-д, 5а",
+                "AddressDetails": {
+                    "Country": {
+                        "AddressLine": "Москва, 1-й Дорожный пр-д, 5а",
+                        "CountryNameCode": "RU",
+                        "CountryName": "Россия",
+                        "Locality": {
+                            "LocalityName": "город Москва",
+                            "Thoroughfare": {
+                                "ThoroughfareName": "1-й Дорожный проезд",
+                                "Premise": {
+                                    "PremiseNumber": "5а"
+                                }
+                            }
+                        }
+                    }
+                },
+                "url": "http:\/\/unaitauto.ru",
+                "urls": ["http:\/\/unaitauto.ru"],
+                "Categories": [
+                    {
+                        "class": "auto",
+                        "name": "Автосервисы, автотехцентры",
+                        "nameHighlight": [
+                            [0, 26]
+                        ],
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Кузовной ремонт",
+                        "InternalCategoryInfo": {
+                            "AppleData": {
+                                "acid": "auto",
+                                "level": "1"
+                            }
+                        }
+                    }
+                ],
+                "Phones": [
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 956-08-18",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "9560818"
+                    },
+                    {
+                        "type": "phone",
+                        "formatted": "+7 (495) 956-89-69",
+                        "country": "7",
+                        "prefix": "495",
+                        "number": "9568969"
+                    }
+                ],
+                "Hours": {
+                    "Availabilities": [
+                        {
+                            "Everyday": true,
+                            "Intervals": [
+                                {
+                                    "from": "09:00:00",
+                                    "to": "21:00:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "text": "ежедневно, 09:00-21:00"
+                },
+                "Geo": {
+                    "precision": "exact"
+                },
+                "Features": [
+                    {
+                        "id": "wheel_alignment",
+                        "type": "bool",
+                        "name": "развал-схождение",
+                        "value": true
+                    },
+                    {
+                        "id": "body_repair",
+                        "type": "bool",
+                        "name": "кузовной ремонт",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_by_credit_card",
+                        "type": "bool",
+                        "name": "оплата картой",
+                        "value": true
+                    },
+                    {
+                        "id": "preliminary_registration",
+                        "type": "bool",
+                        "name": "предварительная запись",
+                        "value": true
+                    },
+                    {
+                        "id": "wi_fi",
+                        "type": "bool",
+                        "name": "бесплатный wi-fi",
+                        "value": true
+                    },
+                    {
+                        "id": "payment_method",
+                        "type": "enum",
+                        "name": "оплата",
+                        "values": ["дисконтная система скидок", "наличными", "банковским переводом"],
+                        "Values": [
+                            {
+                                "id": "discount_system",
+                                "value": "дисконтная система скидок"
+                            },
+                            {
+                                "id": "cash",
+                                "value": "наличными"
+                            },
+                            {
+                                "id": "wire_transfer",
+                                "value": "банковским переводом"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_brand",
+                        "type": "enum",
+                        "name": "марка автомобиля",
+                        "values": ["импортные", "BMW", "Mercedes-Benz"],
+                        "Values": [
+                            {
+                                "id": "foreign_cars",
+                                "value": "импортные"
+                            },
+                            {
+                                "id": "bmw",
+                                "value": "BMW"
+                            },
+                            {
+                                "id": "mercedes",
+                                "value": "Mercedes-Benz"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_repairs",
+                        "type": "enum",
+                        "name": "виды работ",
+                        "values": ["ремонт пластиковых бамперов", "покраска автомобиля", "компьютерная диагностика автомобиля", "полировка", "ремонт стартеров", "ремонт КПП", "ремонт автоэлектрики", "ремонт АКПП", "ремонт генераторов", "замена масла", "ремонт двигателя", "замена тормозных дисков", "заправка автокондиционера", "промывка инжектора", "тонировка стекол", "аэрография", "сигнализация", "бронирование стекол", "установка парктроника", "ремонт рулевых реек", "ремонт глушителей", "ремонт ходовой части", "предрейсовый техосмотр", "полное сервисное обслуживание", "чистка форсунок"],
+                        "Values": [
+                            {
+                                "id": "car_plastic_bumpers",
+                                "value": "ремонт пластиковых бамперов"
+                            },
+                            {
+                                "id": "spraying_car",
+                                "value": "покраска автомобиля"
+                            },
+                            {
+                                "id": "computer_diagnostics_car",
+                                "value": "компьютерная диагностика автомобиля"
+                            },
+                            {
+                                "id": "polishing_car",
+                                "value": "полировка"
+                            },
+                            {
+                                "id": "car_repair_starters",
+                                "value": "ремонт стартеров"
+                            },
+                            {
+                                "id": "car_transmission_repair",
+                                "value": "ремонт КПП"
+                            },
+                            {
+                                "id": "car_electrician_repair",
+                                "value": "ремонт автоэлектрики"
+                            },
+                            {
+                                "id": "car_automatic_transmission",
+                                "value": "ремонт АКПП"
+                            },
+                            {
+                                "id": "car_repair_generators",
+                                "value": "ремонт генераторов"
+                            },
+                            {
+                                "id": "car_oil_change",
+                                "value": "замена масла"
+                            },
+                            {
+                                "id": "car_engine_repair",
+                                "value": "ремонт двигателя"
+                            },
+                            {
+                                "id": "car_brake_disc",
+                                "value": "замена тормозных дисков"
+                            },
+                            {
+                                "id": "car_a_c",
+                                "value": "заправка автокондиционера"
+                            },
+                            {
+                                "id": "car_injector_cleaning",
+                                "value": "промывка инжектора"
+                            },
+                            {
+                                "id": "car_glass_tinting",
+                                "value": "тонировка стекол"
+                            },
+                            {
+                                "id": "car_aerography",
+                                "value": "аэрография"
+                            },
+                            {
+                                "id": "car_alarm",
+                                "value": "сигнализация"
+                            },
+                            {
+                                "id": "glass_services_car",
+                                "value": "бронирование стекол"
+                            },
+                            {
+                                "id": "car_parking_system",
+                                "value": "установка парктроника"
+                            },
+                            {
+                                "id": "steering_racks_repairs",
+                                "value": "ремонт рулевых реек"
+                            },
+                            {
+                                "id": "car_muffler_repair",
+                                "value": "ремонт глушителей"
+                            },
+                            {
+                                "id": "running_gear",
+                                "value": "ремонт ходовой части"
+                            },
+                            {
+                                "id": "car_pre_trip_inspection",
+                                "value": "предрейсовый техосмотр"
+                            },
+                            {
+                                "id": "car_full_service",
+                                "value": "полное сервисное обслуживание"
+                            },
+                            {
+                                "id": "car_injector_nozzle",
+                                "value": "чистка форсунок"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "car_wash",
+                        "type": "bool",
+                        "name": "мойка",
+                        "value": true
+                    },
+                    {
+                        "id": "tire_fitting",
+                        "type": "bool",
+                        "name": "шиномонтаж",
+                        "value": true
+                    }
+                ],
+                "Snippet": {
+                    "FeatureSet": ["car_brand", "car_repairs", "car_wash", "tire_fitting"]
+                },
+                "InternalCompanyInfo": {
+                    "ids": ["1237466368", "1400720793", "1348515745"],
+                    "geoid": "213",
+                    "emails": ["info@unaitauto.ru", "director@unaitauto.ru"]
+                }
+            },
+            "description": "Москва, 1-й Дорожный пр-д, 5а",
+            "name": "Юнайт-Авто",
+            "boundedBy": [
+                [37.61357486, 55.611236120000001],
+                [37.630031989999999, 55.62055007]
+            ],
+            "attributions": ["#yandex"]
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.621803, 55.615893]
+        }
+    }
+]}

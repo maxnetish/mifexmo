@@ -1,0 +1,6 @@
+div.img-gallery
+    a(data-bind="style: {'visibility': previousAvailable()?'visible':'hidden'}, click: previous", href="javascript:void 0", class="btn btn-xs btn-default")
+        span.glyphicon.glyphicon-chevron-left
+    img.img-gallery-item(data-bind="attr: {src: currentImgUrl}")
+    a(data-bind="style: {'visibility': nextAvailable()?'visible':'hidden'}, click: next", href="javascript:void 0", class="btn btn-xs btn-default")
+        span.glyphicon.glyphicon-chevron-right
