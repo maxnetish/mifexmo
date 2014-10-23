@@ -1,8 +1,7 @@
-var ko = require('knockout'),
-    appVm = require('./app-vm');
+var angular = require('./angular-loader');
 
+angular.module('mifexmo-app',
+    [
 
-
-// get up
-require('./ko.components').register();
-ko.applyBindings(appVm);
+    ])
+    .controller('AppController', require('./app-controller'));
