@@ -5,7 +5,6 @@ module.exports = function (grunt) {
     var publicFonts = 'public/fonts';
     var publicImages = 'public/images';
     var nodeModules = 'node_modules';
-    var nodeModulesSelect2 = nodeModules + '/select2';
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -15,14 +14,6 @@ module.exports = function (grunt) {
             publicFonts,
             publicImages
         ],
-        browserify: {
-            options: {
-                browserifyOptions: {
-                    debug: true
-                }
-            },
-            'public/js/app.js': ['webapps/public/app.js']
-        },
         less: {
             build: {
                 files: [
@@ -35,6 +26,22 @@ module.exports = function (grunt) {
             options: {
                 // sourceMap: true
                 // cleancss: true
+            }
+        },
+        concat: {
+            options: {
+                separator: ';' + grunt.util.linefeed,
+                sourceMap: true,
+                sourceMapStyle: 'embed'
+            },
+            buildJs: {
+                src: [
+                        nodeModules + '/lodash/dist/lodash.js',
+                        nodeModules + '/jquery/dist/jquery.js',
+                        nodeModules + '/angular/angular.js',
+                    'webapps/public/**/*.js'
+                ],
+                dest: publicJs + '/app.js'
             }
         },
         copy: {
@@ -75,5 +82,5 @@ module.exports = function (grunt) {
     });
 
     require('load-grunt-tasks')(grunt);
-    grunt.registerTask('default', ['clean', 'browserify', 'less', 'copy']);
+    grunt.registerTask('default', ['clean', 'less', 'copy', 'concat']);
 };

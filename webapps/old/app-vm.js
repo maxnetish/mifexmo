@@ -1,5 +1,5 @@
 var ko = require('knockout'),
-    dataService = require('./data-service'),
+    dataService = require('./../public/data-service/index'),
     _ = require('lodash');
 
 var onDataError = function (qXHR, textStatus, errorThrown) {

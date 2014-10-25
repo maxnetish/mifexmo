@@ -10,7 +10,7 @@ var imageUrls = [
     '/images/7.jpg'
 ];
 
-var getSearchData = function(text, results, skip){
+var getSearchData = function (text, results, skip) {
     var reqParams = {
         text: text,
         results: results || 20,
@@ -27,12 +27,15 @@ var getSearchData = function(text, results, skip){
     });
 };
 
-var getImageUrls = function(){
+var getImageUrls = function () {
     return imageUrls;
 };
 
-module.exports = {
-    getSearchData: getSearchData,
-    getImageUrls: getImageUrls
+var register = function (angular) {
+    angular.module('mifexmo.data-service', [])
+        .factory('dataService', require('./../public/data-service/data-service'));
 };
 
+module.exports = {
+    register: register
+};

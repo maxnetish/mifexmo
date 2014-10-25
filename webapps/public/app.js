@@ -1,7 +1,9 @@
-var angular = require('./angular-loader');
+(function (angular) {
+    angular.module('mifexmo-app',
+        [
+            'mifexmo.directives',
+            'mifexmo.app-controller',
+            'mifexmo.data-service'
+        ]);
+})(angular);
 
-angular.module('mifexmo-app',
-    [
-
-    ])
-    .controller('AppController', require('./app-controller'));

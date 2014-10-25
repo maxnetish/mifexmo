@@ -1,6 +1,3 @@
-form(data-bind="submit: onSubmit")
-    div.input-group
-        input.form-control(data-bind="textInput: searchTerm", type="text", required)
-        span.input-group-btn
-            button.btn.btn-primary(type="submit") Go!
+form(name="searchForm")
+    input.form-control(ng-model="term", ng-model-options="{debounce: {'default': 1000, 'blur': 0}}", type="search", placeholder="Start type something")
 
