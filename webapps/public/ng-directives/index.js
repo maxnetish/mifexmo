@@ -2,5 +2,8 @@ angular.module('mifexmo.directives',
     [
         'mifexmo.directives.endless',
         'mifexmo.directives.search-form',
-        'mifexmo.directives.search-result'
+        'mifexmo.directives.search-result',
+        'mifexmo.directives.preloader',
+        'mifexmo.directives.search-result-item',
+        'mifexmo.directives.image-gallery'
     ]);

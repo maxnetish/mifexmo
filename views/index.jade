@@ -2,26 +2,26 @@ extends layout
 
 block content
     div(ng-app="mifexmo-app", ng-controller="AppController")
-        span {{foo}}
         div.container-fluid
+            div.row
+                div.col-md-offset-2.col-md-8.text-center
+                    h4 Yandex feature search
             div.row
                 div.col-md-4.col-md-offset-4
                     search-form(term="search.term")
             div.row
                 div.col-md-12
-                    search-result(items="search.result", endless-list)
-        //div(data-bind="if: modal")
-        //    div.modal-wrapper(data-bind="component: {name: modal, params: modalData}")
+                    search-result(items="search.result", endless-list, preloader)
 
         script#search-form-tpl(type="text/ng-template")
             include components/search-form
         script#search-result-tpl(type="text/ng-template")
             include components/search-results
-        script#search-result-block-tpl(type="text/html")
-            include components/search-result-block
-        script#search-result-details-tpl(type="text/html")
-            include components/search-result-details
-        script#img-gallery-tpl(type="text/html")
+        script#search-result-item-tpl(type="text/ng-template")
+            include components/search-result-item
+        script#search-result-item-modal-tpl(type="text/ng-template")
+            include components/search-result-item-modal
+        script#img-gallery-tpl(type="text/ng-template")
             include components/img-gallery
 
 block scripts

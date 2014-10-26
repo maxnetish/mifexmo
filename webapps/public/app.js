@@ -3,7 +3,7 @@
         [
             'mifexmo.directives',
             'mifexmo.app-controller',
-            'mifexmo.data-service'
+            'mifexmo.services'
         ]);
 })(angular);
 

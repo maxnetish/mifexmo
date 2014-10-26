@@ -1,0 +1,18 @@
+div.modal-wrapper
+    div.modal-container
+        div.title
+            a.pull-right(ng-click="close()", href="javascript:void 0")
+                span.glyphicon.glyphicon-remove-circle
+            h4.result-title.text-primary {{data.name}}
+        div.body
+            p.result-address {{data.address}}
+            p.result-url(ng-if="data.url")
+                a(ng-href="{{data.url}}", target="_blank") {{data.url}}
+            p.result-categories
+                span.result-one-category(ng-repeat="categ in data.categories") {{categ}}
+            p.result-features
+                span.result-one-feature(ng-repeat="feature in data.features") {{feature}}
+                    br
+            p.result-hours {{data.hours}}
+        img-gallery
+

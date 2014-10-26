@@ -4,7 +4,9 @@ angular.module('mifexmo.app-controller',
     ])
     .constant('controllerEvents', {
         searchResultUpdated: 'searchResultUpdated',
-        endlessWantNextChunk: 'wantNextChunk'
+        endlessWantNextChunk: 'wantNextChunk',
+        wantShowPreloader: 'wantShowPreloader',
+        wantHidePreloader: 'wantHidePreloader'
     })
     .factory('appControllerService',
     [
@@ -14,24 +16,44 @@ angular.module('mifexmo.app-controller',
             var maxResponseItems = 29;
 
             var updateSearchResults = function (scope) {
-                var newRequest, toSkip;
-                if (!scope.search || !scope.search.term) {
+                var newRequest, toSkip,
+                    resultsLoaded, resultsFound, term,
+                    previousTerm;
+
+                term = scope.search.term;
+                previousTerm = scope.lastResponse.term;
+                newRequest = term !== previousTerm;
+
+                resultsLoaded = scope.search.result.length || 0;
+                resultsFound = scope.lastResponse.found || 0;
+                toSkip = newRequest ? 0 : scope.search.result.length;
+
+                if (!term) {
+                    // пустая строка поиска
                     return;
                 }
-                newRequest = !scope.lastResponse && (scope.lastResponse.term !== scope.search.term);
-                toSkip = newRequest ? 0 : scope.search.result.length;
+
+                if (!newRequest && resultsLoaded >= resultsFound) {
+                    // все результаты уже у клиента
+                    return;
+                }
+
+                if (newRequest) {
+                    // если  новый поиск - очищаем
+                    scope.search.result.length = 0;
+                }
+
+                scope.$emit(controllerEvents.wantShowPreloader, {});
                 dataService.promiseSearchResults(scope.search.term, maxResponseItems, toSkip).then(function (response) {
                     scope.lastResponse = response.data;
-                    if (newRequest) {
-                        scope.search.result.length = 0;
-                    }
                     _.each(scope.lastResponse.items, function (item) {
                         scope.search.result.push(item);
                     });
                     scope.$emit(controllerEvents.searchResultUpdated, {});
-                    console.log(scope.search.result);
-                }, function (err) {
+                }).catch(function(err){
                     console.log(err);
+                })['finally'](function(){
+                    scope.$emit(controllerEvents.wantHidePreloader, {});
                 });
             };
 
@@ -53,10 +75,6 @@ angular.module('mifexmo.app-controller',
             $scope.search = {
                 term: null,
                 result: []
-            };
-
-            $scope.onNeedNext = function () {
-                console.log('onNeedNext');
             };
 
             $scope.$watch('search.term', function () {

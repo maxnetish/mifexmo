@@ -1,7 +1,4 @@
 ul.list-unstyled.list-inline
     li.search-result-block-wrapper(ng-repeat="item in items")
-        {{item.properties.name}}
-        search-result-block(params="data: $data, number: $index()+1, showDetails: $parent.showDetails")
-//div.need-next-if-in-viewport
-    img.preloader.center-block(src="/images/preloader.gif", data-bind="visible: showPreloader")
+        search-result-item(item="item", number="{{$index+1}}")
 
